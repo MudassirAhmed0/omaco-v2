@@ -1,0 +1,261 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Omaco";
+    src: url(../fonts/static/Montserrat-Light.ttf);
+    font-weight: 300;
+    display: block;
+}
+@font-face {
+    font-family: "Omaco";
+    src: url(../fonts/static/Montserrat-Regular.ttf);
+    font-weight: 400;
+    display: block;
+}
+@font-face {
+    font-family: "Omaco";
+    src: url(../fonts/static/Montserrat-SemiBold.ttf);
+    font-weight: 600;
+    display: block;
+}
+body{
+    font-family: "Omaco";
+
+}
+html{
+    scroll-behavior: smooth;
+
+}
+
+@layer components{
+.Container{
+    @apply w-[87.5vw] mx-[auto]
+}
+    .mainHeading{
+        @apply md:text-[3.33333333333vw] md:leading-[5vw] uppercase
+        font-[600]
+
+    }
+    .shortHeading{
+        @apply md:text-[1.66666666667vw] md:leading-[2.5vw]  font-[600]
+    }
+    .tagLine{
+        @apply md:text-[1.25vw] md:leading-[1.875vw]  capitalize
+
+    }
+     .paragraph{
+        @apply md:text-[0.9375vw] md:leading-[1.40625vw] 
+        
+     }
+     .button{
+        @apply  md:w-[11.8229166667vw] md:h-[3.17708333333vw]   border-[1px] flex justify-center 
+        items-center  transition-all duration-500 relative cursor-pointer
+     }
+     .link{
+        @apply text-[1.04166666667vw] leading-[1.25vw]
+        
+        font-[300] capitalize transition-all duration-500
+     }
+     .sliderOverlay{
+        @apply before:rounded-[5px] before:content-[''] before:w-full before:h-full before:bg-[#F7EDE7] before:absolute before:top-0 before:left-0
+     }
+     .team-members{
+      @apply w-[23.3854166667vw] h-[28.5416666667vw]
+      rounded-[15px] overflow-hidden relative flex items-end
+     }
+     .team-member-overlay1{
+      @apply absolute top-0 left-0 w-full h-full
+      bg-[#BF713E] z-[3]
+     }
+    
+      
+     .team-member-content{
+      @apply absolute left-[50%] transform translate-x-[-50%]
+      bottom-[1.97916666667vw] w-[21.875vw] z-[5] flex flex-col 
+        items-center
+     }
+     .service-readmore{
+      @apply w-[0.91927083333vw] h-[0.91927083333vw]
+     }
+     .service-readmore-wrapper{
+      @apply w-[8.28125vw]   opacity-[0.8] text-[#183828]
+      flex justify-between items-center
+     }
+}
+
+.Borderz{
+    border: 1px solid rgba(24, 56, 40, 0.1);
+ }
+ .Borderz-dashed{
+   border: 1px dashed rgba(24, 56, 40, 0.2);
+ }
+.headerLinks li:hover,.headerLinks li.active{
+    color: #BF713E;
+}
+.button::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #BF713E;
+    transform: scale(0);
+    transition: all .5s;
+}
+.button a{
+    position: relative;
+    z-index: 2;
+}
+.button:hover::after{
+    transform: scale(1);
+
+}
+
+.overlay1,
+.overlay2,
+.overlay3,
+.overlay4,
+.overlay5,
+.overlay6,
+.bgImg,
+.about-g,
+.team-member-overlay,
+.buisness-bg-img,
+.service-hero-overlay2,
+.service-hero-overlay3
+{
+    position: absolute;
+pointer-events: none;
+
+}
+
+.overlay1{
+    background: linear-gradient(180deg, #183828 0%, rgba(24, 56, 41, 0) 100%);
+}
+ 
+.about-g{
+   background: linear-gradient(180deg, #183829 0%, rgba(24, 56, 41, 0) 100%);
+transform: rotate(-180deg);
+}
+
+
+ .overlay2{
+    background: linear-gradient(90deg, #183829 -0.01%, rgba(24, 56, 41, 0.702572) 36.97%, rgba(24, 56, 41, 0) 100%);
+
+ }
+ .overlay3{
+    background: linear-gradient(90deg, #183829 34.54%, rgba(24, 56, 41, 0) 82.1%);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+
+ }
+
+ .overlay4{
+background: linear-gradient(180deg, #183829 0%, rgba(24, 56, 41, 0) 100%);
+opacity: 0.9;
+transform: matrix(1, 0, 0, -1, 0, 0);
+ }
+ .overlay5{
+    background: #183829;
+    opacity: 0.7;
+    transform: matrix(-1, 0, 0, 1, 0, 0);    
+ }
+ .overlay6{
+    background: linear-gradient(180deg, rgba(250, 244, 241, 0) 0%, #FAF4F1 100%);
+ }
+ .bgImg{
+    opacity: 0.8;
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+
+ }
+ 
+
+.team-member-overlay{
+   background: linear-gradient(180deg, rgba(24, 56, 41, 0) 0%, rgba(24, 56, 41, 0.630208) 50%, #183829 100%);
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 8.85416666667vw;
+   z-index: 5;
+}
+
+ 
+
+.service-hero-overlay2{
+   background: linear-gradient(180deg, #183828 0%, rgba(24, 56, 41, 0) 100%);
+transform: rotate(180deg);
+}
+.service-hero-overlay3{
+   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 12.5%, rgba(0, 0, 0, 0.5) 25%, #000000 37.5%, #000000 50%, #000000 62.5%, rgba(0, 0, 0, 0.5) 75%, rgba(0, 0, 0, 0.2) 87.5%, rgba(0, 0, 0, 0) 100%);
+}
+
+.testiomonialCarousel  .swiper-button-next:after,.testiomonialCarousel .swiper-button-prev:after {
+    content: url(../images/icons/ArrowNext.png) !important;
+    width: 2.55208333333vw !important;
+    height: 2.55208333333vw !important;
+ }
+ .testiomonialCarousel  .swiper-button-prev:after{
+transform: rotate(180deg);
+ }
+ .testiomonialCarousel  .swiper-button-next,.testiomonialCarousel .swiper-button-prev{
+    width: 2.55208333333vw !important;
+    height: 2.55208333333vw !important;
+    top: 3.0078125vw !important;
+
+ }
+ .testiomonialCarousel  .swiper-button-next{
+    right: 11.0416666667vw !important;
+
+ }
+ 
+ .testiomonialCarousel  .swiper-button-prev{
+    left: 10.9895833333vw !important;
+ }
+ .testiomonialSwiper.swiper-horizontal.swiper-css-mode>.swiper-wrapper{
+    display: flex !important;
+ }
+ .testiomonialSwiper.swiper-css-mode>.swiper-wrapper>.swiper-slide{
+    width:11.1979166667vw !important;
+    height: 6.5625vw !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+ }
+ .testiomonialCarousel  .swiper-pagination{
+    bottom: -2.60416666667vw !important;
+ }
+ .testiomonialCarousel  .swiper-pagination-bullet-active{
+    background: #183829 !important;
+ }
+ .testiomonialCarousel  .swiper-pagination-bullet{
+    width: 0.72916666666vw !important;
+    height: 0.72916666666vw !important;
+    
+ }
+
+.sectorsSwiper .swiper-wrapper{
+   align-items: flex-end;
+   height: 24.21875vw;
+
+}
+ .sectorsSwiper .swiper-slide{
+   transition: all .8s;
+ }
+ .sectorsSwiper .swiper-slide-active{
+   height: 24.21875vw;
+ }
+
+ .sectorCardOverlay{
+   background: linear-gradient(180deg, rgba(16, 38, 28, 0) 0%, #10261C 100%);
+ }
+ .swiper-slide-active .sectorCardOverlay{
+   max-height: 21.875vw;
+ }
+
+ .sectorsSwiper .swiper-button-next,.sectorsSwiper .swiper-button-prev{
+   width: 2.55208333333vw;
+   height: 2.55208333333vw;
+   background: #FAF4F1;
+box-shadow: 0px 2.39024px 14.3415px rgba(0, 0, 0, 0.1);
+border-radius: 50%;
+ }
