@@ -1,7 +1,7 @@
 const sectorGap = window.innerWidth /100 * 3.38541666667
 const sectorsSwiper = new Swiper(".sectorsSwiper", {
     loop:true,
-     slidesPerView:2.4,
+     slidesPerView: window.innerWidth>768? 2.4: 1.4,
       
 
     spaceBetween: sectorGap,
@@ -21,7 +21,7 @@ const sectorsSwiper = new Swiper(".sectorsSwiper", {
   const testiomonialSwiperGap = window.innerWidth / 100 * 2.34375
   const testiomonialSwiper = new Swiper(".testiomonialSwiper", {
     cssMode: true,
-    slidesPerView:5,
+    slidesPerView: window.innerWidth>768? 5: 2.4,
     spaceBetween:testiomonialSwiperGap,
   //   autoplay: {
   //     delay: 2500,
