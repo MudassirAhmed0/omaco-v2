@@ -545,4 +545,10 @@ right: 11.9791666667vw;
     .swiper-slide-active .sectorCardOverlay{
       max-height: unset;
     }
+    .centeredLine{
+      top: 38px;
+      left: 2.22222222222vw;
+      
+   
+   }
  }
