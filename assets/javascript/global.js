@@ -1,4 +1,5 @@
 // HAMBURGER JS 
+AOS.init({once: true});
 
 
 var menu = document.querySelector(".menu").children[0]

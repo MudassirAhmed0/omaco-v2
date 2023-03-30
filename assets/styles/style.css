@@ -3,6 +3,36 @@
 @tailwind utilities;
 
 @font-face {
+    font-family: "GE SS";
+    src: url(../fonts/GE\ SS\ Two\ Light.otf);
+    font-weight: 300;
+    display: block;
+}
+@font-face {
+    font-family: "GE SS";
+    src: url(../fonts/GE\ SS\ Two\ Light.otf);
+    font-weight: 400;
+    display: block;
+}
+@font-face {
+    font-family: "GE SS";
+    src: url(../fonts/GE\ SS\ Two\ Medium.otf);
+    font-weight: 500;
+    display: block;
+}
+@font-face {
+    font-family: "GE SS";
+    src: url(../fonts/GE\ SS\ Two\ Bold.otf);
+    font-weight: 600;
+    display: block;
+}
+@font-face {
+    font-family: "GE SS";
+    src: url(../fonts/GE\ SS\ Two\ Bold.otf);
+    font-weight: 700;
+    display: block;
+}
+@font-face {
     font-family: "Montserrat";
     src: url(../fonts/Montserrat-Light.ttf);
     font-weight: 300;
@@ -33,10 +63,17 @@
     display: block;
 }
 body{
-    font-family: "Montserrat";
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
    background-color: #FAF4F1;
+}
+.ltr body{
+   font-family: "Montserrat";
+
+}
+.rtl body{
+   font-family: "GE SS";
+
 }
 html{
     scroll-behavior: smooth;
@@ -46,6 +83,163 @@ html{
 @layer components{
 .Container{
     @apply w-[90vw] md:w-[87.5vw] mx-[auto]
+}
+.rtl .histroyCircle{
+   @apply right-[-7.5vw]
+}
+.ltr .histroyCircle{
+   @apply left-[-7.5vw]
+}
+.rtl .adjustLeftPaddingOfCarousel{
+   @apply md:pr-[6.30208333333vw]
+}
+.ltr .adjustLeftPaddingOfCarousel{
+   @apply md:pl-[6.30208333333vw]
+}
+.rtl .histroyCircle{
+   @apply translate-x-[50%]
+}
+.ltr .histroyCircle{
+   @apply translate-x-[-50%]
+}
+.rtl .histroyCircle1{
+   @apply md:right-[100%]
+}
+.ltr .histroyCircle1{
+   @apply md:left-[100%]
+}
+.rtl .histroyCircle2{
+   @apply md:right-[0%]
+}
+.ltr .histroyCircle2{
+   @apply md:left-[0%]
+}
+.rtl .centeredLineContainer{
+  @apply pr-[10vw] md:pr-[12.4479166667vw]
+}
+.ltr .centeredLineContainer{
+  @apply pl-[10vw] md:pl-[12.4479166667vw]
+}
+.rtl .adjustHistoryDivMargin1{
+   @apply md:mr-[31.25vw]
+}
+.rtl .adjustHistoryDivPadding{
+   @apply md:pr-[6vw]
+}
+.ltr .adjustHistoryDivPadding{
+   @apply md:pl-[6vw]
+}
+.rtl .adjustTaglinePadding{
+   @apply pr-[1.25vw]
+}
+.ltr .adjustTaglinePadding{
+   @apply pl-[1.25vw]
+}
+
+.ltr .adjustHistoryDivMargin1{
+   @apply md:ml-[31.25vw]
+}
+.rtl .adjustCeoMargins{
+   @apply md:mr-[6.25vw]
+}
+.ltr .adjustCeoMargins{
+   @apply md:ml-[6.25vw]
+}
+.rtl .adjustAboutSecMargins{
+   
+   @apply mx-auto md:ml-0 md:mr-[5.63177083333vw]
+}
+.ltr .adjustAboutSecMargins{
+   @apply mx-auto md:mr-0 md:ml-[5.63177083333vw]
+
+}
+.rtl .adjustCeoOverlay{
+   @apply right-0 md:right-[unset] md:left-[18.8541666667vw]
+}
+.ltr .adjustCeoOverlay{
+   @apply left-0 md:left-[unset] md:right-[18.8541666667vw]
+}
+.rtl .adjustCeoImage{
+   @apply mr-auto md:mr-0 left-[-3.07291666667vw]
+}
+.ltr .adjustCeoImage{
+   @apply ml-auto md:ml-0 right-[-3.07291666667vw]
+}
+.rtl .adjustBeforeLeft{
+   @apply before:right-0
+}
+.ltr .adjustBeforeLeft{
+   @apply before:left-0
+}
+.rtl .adjustLeftPadding{
+   @apply md:pr-[6.25vw]
+}
+.ltr .adjustLeftPadding{
+   @apply md:pl-[6.25vw]
+}
+.rtl .adjustLeftPaddingOfBanner{
+   @apply pr-[6.35416666667vw]
+}
+.ltr .adjustLeftPaddingOfBanner{
+      @apply pl-[6.35416666667vw]
+}
+.rtl .adjustLeftMargin{
+   @apply mr-auto md:mr-0
+}
+.ltr .adjustLeftMargin{
+   @apply ml-auto md:ml-0
+
+}
+.rtl .adjustRightPadding{
+   @apply pl-[5%] md:pl-0
+}
+.ltr .adjustRightPadding{
+   @apply pr-[5%] md:pr-0
+}
+.rtl .rtlLeft0{
+   @apply left-0
+}
+.rtl .rtlMarginRightAuto{
+   @apply md:mr-[auto]
+}
+.ltr .rtlMarginRightAuto{
+   @apply md:ml-[auto]
+}
+.rtl .backgroundSectionPaddingRight{
+  @apply md:pl-[1.9265625vw]
+}
+.ltr .backgroundSectionPaddingRight{
+  @apply md:pr-[1.9265625vw]
+}
+.rtl .fliped{
+   @apply transform scale-x-[-1]
+}
+.ltr .rtlLeft0{
+   @apply right-0
+}
+.rtl .centeredLine{
+   @apply right-[2.22222222222vw] md:right-[unset] md:left-[50%]
+}
+.ltr .centeredLine{
+   @apply left-[2.22222222222vw] md:left-[50%]
+}
+.rtl .historyBorder{
+   @apply right-[-7.5vw] md:right-[unset]
+}
+.ltr .historyBorder{
+   @apply left-[-7.5vw] md:left-[unset]
+}
+
+.historyBorder{
+   @apply  absolute h-[38px] md:h-[5vw] border-b border-[#BF713E] 
+ }
+.histroyCircle{
+ @apply   absolute md:top-[5vw] top-[38px]    w-[30px] md:w-[1.875vw] translate-y-[-50%] transform 
+ 
+}
+.centeredLine{
+   @apply absolute top-[38px] md:top-[5vw]   transform translate-x-[-50%] w-[1px] bg-[#BF713E] h-[89.5%] 
+
 }
     .mainHeading{
         @apply text-[28px] leading-[38px]  md:text-[3.33333333333vw] md:leading-[5vw] uppercase
@@ -67,6 +261,9 @@ html{
     }
     .exploreSvg{
       @apply w-[6.5px] h-[11.9px] md:w-[0.41666666666vw] md:h-[0.67708333333vw] transition-all duration-[800ms]
+    }
+    .rtl .exploreSvg{
+      @apply scale-x-[-1]
     }
     .exploreBtn:hover{
       color: #BF713E;
@@ -141,7 +338,40 @@ html{
 }
 
 }
+.histroyCircle{
+   opacity: 0;
+   transition: all .8s;
+   transition-delay: .8s;
+}
+.active .histroyCircle{
+   opacity: 1;
+}
+.historyBorder{
+   transform: scaleX(0);
+   transition: all .8s;
+   transform-origin: left;
+   transition-delay: .4s;
 
+}
+.active .historyBorder{
+   transform: scaleX(1);
+
+}
+
+.centeredLineContainer .tagLine{
+   transform: translateY(-30px);
+   transition: all .8s;
+   opacity: 0;
+}
+.centeredLineContainer .mainHeading{
+   transform: translateY(30px);
+   transition: all .8s;
+   opacity: 0;
+}
+.centeredLineContainer .active .tagLine,.centeredLineContainer .active .mainHeading{
+   transform: translateY(0);
+   opacity: 1;
+}
 .Borderz{
     border: 1px solid rgba(24, 56, 40, 0.05);
  }
@@ -283,17 +513,7 @@ transform: rotate(-180deg);
 .centeredLineContainer{
    position: relative;
 }
-.centeredLine{
-   position: absolute;
-   top: 5vw;
-   left: 50%;
-   transform: translateX(-50%);
-   width: 1px;
-   background-color: #BF713E;
-   height: 89.5%;
-   opacity: 0.2;
 
-}
 .investmentSideOverlay{
    height: 100%;
    position: absolute;
@@ -371,7 +591,6 @@ transform: rotate(180deg);
     top: 50% !important;
    margin-top: 0!important;
    background-color: #F7EDE7;
-   transform: translateY(-50%);
    border-radius: 50%;
  }
  .testiomonialCarousel  .swiper-button-next{
@@ -458,6 +677,16 @@ left: unset;
  .sectorsSwiper .swiper-button-prev{
 right: 11.9791666667vw;
  }
+ 
+ .rtl .sectorsSwiper .swiper-button-next{
+   left:6.25vw;
+   right:unset;
+ }
+ .rtl .sectorsSwiper .swiper-button-prev{
+   right:unset;
+   left: 11.9791666667vw;
+ }
+ 
  /* HAMBURGER  */
 
 .container {
@@ -545,10 +774,5 @@ right: 11.9791666667vw;
     .swiper-slide-active .sectorCardOverlay{
       max-height: unset;
     }
-    .centeredLine{
-      top: 38px;
-      left: 2.22222222222vw;
-      
    
-   }
  }
