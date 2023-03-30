@@ -53,16 +53,20 @@
     <meta name="theme-color" content="#333333">
 </head>
 <body  >
-    <div id="takeToTop" class="opacity-0 pointer-events-none transition-all duration-[800ms] w-[2.55208333333vw] h-[2.55208333333vw] fixed 
-    right-[0.9375vw]  flex justify-center items-center border-[1px] border-[#183828] rounded-[50%] bottom-[3.38541666667vw] z-[123] cursor-pointer  " onclick="topFunction()">
-        <img src="../assets/images/icons/ArrowNexttop.png" alt="" class="w-[1.27083333333vw] h-[1.27083333333vw] object-contain">
+    <div id="takeToTop" class="opacity-0 pointer-events-none transition-all duration-[800ms] w-[24px] h-[24px] md:w-[2.55208333333vw] md:h-[2.55208333333vw] fixed 
+    adjustTakeToTopRight  flex justify-center items-center border-[1px] border-[#183828] rounded-[50%] bottom-[3.38541666667vw] z-[123] cursor-pointer  " onclick="topFunction()">
+    <svg class="w-[16px] h-[16px] md:w-[1.27083333333vw] md:h-[1.27083333333vw] object-contain" viewBox="0 0 21 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M19.765 10.8097C20.1457 10.4144 20.1457 9.77504 19.765 9.38069L11.6985 1.02225C11.5206 0.835152 11.3066 0.686171 11.0694 0.584368C10.8323 0.482566 10.5768 0.430069 10.3187 0.430069C10.0606 0.430069 9.80519 0.482566 9.568 0.584368C9.33081 0.686171 9.1168 0.835152 8.93899 1.02225L0.812865 9.44121C0.631257 9.63228 0.529181 9.88531 0.527368 10.1489C0.525555 10.4125 0.624141 10.6669 0.803104 10.8605C0.891481 10.9564 0.998601 11.0331 1.11783 11.0859C1.23706 11.1387 1.36586 11.1664 1.49625 11.1675C1.62665 11.1685 1.75586 11.1427 1.87589 11.0917C1.99592 11.0408 2.10421 10.9657 2.19406 10.8712L9.6291 3.16579C9.71801 3.07217 9.82504 2.99761 9.94368 2.94666C10.0623 2.89572 10.1901 2.86944 10.3192 2.86944C10.4483 2.86944 10.5761 2.89572 10.6947 2.94666C10.8134 2.99761 10.9204 3.07217 11.0093 3.16579L18.3858 10.8097C18.4746 10.9033 18.5816 10.9779 18.7001 11.0288C18.8187 11.0797 18.9464 11.106 19.0754 11.106C19.2044 11.106 19.3321 11.0797 19.4507 11.0288C19.5693 10.9779 19.6762 10.9033 19.765 10.8097Z" fill="#183829"/>
+        </svg>
+           
+    <!-- <img src="../assets/images/icons/ArrowNexttop.png" alt="" > -->
     </div>
 
     <header class="absolute top-[3.38541666667vw] left-0 w-full z-[52]">
      
         <div class="Container flex justify-between items-center">
             <div class="w-[120px] h-[60px] md:w-[10.4166666667vw] md:h-[4.375vw]">
-                <a href="../">
+                <a href="./">
                     <img src="../assets/images/logo.svg" alt="Logo" class='relative top-[18px] md:top-0'>
                 </a>
                 
@@ -71,21 +75,21 @@
             <nav class="hidden md:block">
     <ul class="headerLinks flex gap-x-[2.08333333333vw] text-[#FFFFFF]">
         <li class="active">
-            <a href="/" class=" link
-            ">Home</a>
+            <a href="./" class=" link
+            ">الصفحة الرئیسیة</a>
         </li>
         <li>
             <a href="./about.html" class="link
-            ">about us</a>
+            ">عن المجموعة</a>
         </li>
         <li>
             <a href="./buisness-sectors.html" class=" link
-            ">business Sectors </a>
+            ">قطاعات الأعمال </a>
         </li>
        
         <li>
             <a href="./contact-us.html" class=" link
-            ">Contact us</a>
+            ">تواصل معنا</a>
         </li>
     </ul>
             </nav>
@@ -106,19 +110,19 @@
                      <li class="py-[15px] border-b-[1px] border-[#FFFFFF] active"><a href="./index.html" class=" 
                       
                       font-[300]  
-                            text-[18px] text-[#FFFFFF]    linkItem">Home</a></li>
+                            text-[18px] text-[#FFFFFF]    linkItem">الصفحة الرئیسیة</a></li>
                     <li class="py-[15px] border-b-[1px] border-[#FFFFFF]"><a  href="./about.html" class=" 
                       
                       font-[300]  
-                            text-[18px] text-[#FFFFFF]    linkItem">About Us</a></li>
+                            text-[18px] text-[#FFFFFF]    linkItem">عن المجموعة</a></li>
                     <li class="py-[15px] border-b-[1px] border-[#FFFFFF]"><a  href="./buisness-sectors.html" class=" 
                       
                       font-[300]  
-                            text-[18px] text-[#FFFFFF]    linkItem">business Sectors </a></li>
+                            text-[18px] text-[#FFFFFF]    linkItem">قطاعات الأعمال </a></li>
                     <li class="py-[15px] border-b-[1px] border-[#FFFFFF]"><a  href="./contact-us.html" class=" 
                       
                       font-[300]  
-                            text-[18px] text-[#FFFFFF]    linkItem">  Contact us </a></li>
+                            text-[18px] text-[#FFFFFF]    linkItem">  تواصل معنا </a></li>
                     
                   </ul>
                  
@@ -169,17 +173,17 @@
         
         <div class="relative z-[4] md:w-[78.9067708333vw] rtlMarginRightAuto  gap-y-[40px] flex-col md:flex-row flex items-center">
             <div class=" w-[90%] md:w-[37.7604166667vw] flex flex-col gap-y-[12px] md:gap-y-[1.66666666667vw] text-[#FFFFFF]">
-                <h1 class="mainHeading " data-aos="fade-up">About The Group</h1>
+                <h1 class="mainHeading " data-aos="fade-up">عن المجموعة</h1>
                 <div data-aos="fade-down" class="  flex flex-col justify-between tagLine">
-                    <p class="">OMACO is a Saudi group of companies established in 1980. OMACO enjoys numerous investments in multiple sectors including industrial, services, automotive, and technology to name a few. The group also contributes in managing and operating a wide range of companies 
-                        </p>
-                        <p class="">As well as representing many international brands in the local market. Inline with Saudi Arabia’s Vision 2030, and with more than 40 years of experience, OMACO continues to diversify its investments and participate in the national economical development of Saudi Arabia</p>
+                    <p class="">
+                        مجموعة أوماكو ھي شركة سعودیة تأسست عام 1980م، تستثمر وتساھم في إدارة عدة شركات في قطاعات الصناعة والخدمات والاستثمار، كما تمثل العدید من الشركات العالمیة في المملكة، وتسعى المجموعة إلى تنویع استثماراتھا المحلیة وتنمیة الاقتصاد الوطني بما یتواءم مع رؤیة المملكة 2030، وذلك من خلال خبرتھا التي تجاوزتالأربعینعاًما.
+                    </p>
                
                     </div>
                 <div  data-aos="fade" class="">
             
-                    <a href="" class="exploreBtn text-[#fff] ">
-                        Explore More
+                    <a href="./about.html" class="exploreBtn text-[#fff] ">
+                        أكتشف المزید
                         <svg  class="exploreSvg" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0.933861 12.1003C1.17587 12.3333 1.56728 12.3333 1.80869 12.1003L6.9256 7.16203C7.04014 7.05318 7.13135 6.92217 7.19367 6.77696C7.25599 6.63176 7.28813 6.4754 7.28813 6.31738C7.28813 6.15937 7.25599 6.003 7.19367 5.8578C7.13135 5.71259 7.04014 5.58158 6.9256 5.47273L1.77164 0.498034C1.65467 0.386856 1.49977 0.324367 1.3384 0.323257C1.17702 0.322147 1.02128 0.3825 0.902788 0.492058C0.844091 0.546162 0.797125 0.611739 0.7648 0.684729C0.732474 0.75772 0.715477 0.836569 0.714861 0.916395C0.714245 0.996221 0.730023 1.07532 0.761218 1.1488C0.792412 1.22229 0.83836 1.28858 0.896215 1.34358L5.61336 5.89521C5.67068 5.94964 5.71632 6.01516 5.74751 6.08779C5.7787 6.16042 5.79478 6.23864 5.79478 6.31768C5.79478 6.39672 5.7787 6.47494 5.74751 6.54757C5.71632 6.6202 5.67068 6.68573 5.61336 6.74016L0.933861 11.2559C0.876561 11.3103 0.830931 11.3758 0.799748 11.4484C0.768566 11.5209 0.752485 11.5991 0.752485 11.6781C0.752485 11.7571 0.768566 11.8353 0.799748 11.9078C0.830931 11.9804 0.876561 12.0459 0.933861 12.1003Z" fill="#BF713E"/>
                             </svg>
@@ -199,7 +203,7 @@
 
 
 
-<section class="md:h-[128.125vw] pb-[9.63541666667vw] pt-[7.44791666667vw] relative">
+<section class="md:h-[132.125vw] pb-[9.63541666667vw] pt-[60px] md:pt-[7.44791666667vw] relative">
     <div class=" bgImg w-full h-[125.260416667vw] left-0 
     top-[3.33333333333vw]">
         <img src="../assets/images/abstract 1.png" alt="" class="w-[full] h-[full] object-contain">
@@ -208,14 +212,15 @@
     <div class=" adjustLeftPaddingOfCarousel  w-[95%] gap-y-[40px]  md:w-auto adjustLeftMargin flex flex-col md:flex-row justify-between items-center">
         <div class="adjustRightPadding">
             <div class="md:w-[34.1666666667vw] flex flex-col gap-y-[12px] md:gap-y-[1.66666666667vw]"> 
-                <h2 data-aos="fade-up" class="mainHeading text-[#BF713E] ">OMACO Sectors </h2>
+                <h2 data-aos="fade-up" class="mainHeading text-[#BF713E] ">قطاعات الأعمال </h2>
                 <div data-aos="fade-down" class="tagLine text-[#000] md:w-[35.7291666667vw] 
                 ">
-                <p >OMACO Group seeks to contribute to the growth of the national economy in line with the goals of the Kingdom's Vision 2030, through its leading companies in the services, industry and investment sectors.</p>
+                <p >تـسعى مجـموعـة أومـاكـو لـلمساھـمة فـي نـمو الاقـتصاد الـوطـني بـما یـتواءم مـع مسـتھدفـات رؤیــة الــمملكة ٢٠٣٠، وذلــك مــن خــلال شـركـاتـھا الـرائـدة فـي قـطاعـات الخـدمـات
+                    والصناعة والاستثمار</p>
                 </div>
                 <div data-aos="fade" data-aos="400">
-                    <a href="" class="exploreBtn text-[#183828] ">
-                        Explore All
+                    <a href="./buisness-sectors.html" class="exploreBtn text-[#183828] ">
+                        أكتشف المزید
                         <svg  class="exploreSvg" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0.933861 12.1003C1.17587 12.3333 1.56728 12.3333 1.80869 12.1003L6.9256 7.16203C7.04014 7.05318 7.13135 6.92217 7.19367 6.77696C7.25599 6.63176 7.28813 6.4754 7.28813 6.31738C7.28813 6.15937 7.25599 6.003 7.19367 5.8578C7.13135 5.71259 7.04014 5.58158 6.9256 5.47273L1.77164 0.498034C1.65467 0.386856 1.49977 0.324367 1.3384 0.323257C1.17702 0.322147 1.02128 0.3825 0.902788 0.492058C0.844091 0.546162 0.797125 0.611739 0.7648 0.684729C0.732474 0.75772 0.715477 0.836569 0.714861 0.916395C0.714245 0.996221 0.730023 1.07532 0.761218 1.1488C0.792412 1.22229 0.83836 1.28858 0.896215 1.34358L5.61336 5.89521C5.67068 5.94964 5.71632 6.01516 5.74751 6.08779C5.7787 6.16042 5.79478 6.23864 5.79478 6.31768C5.79478 6.39672 5.7787 6.47494 5.74751 6.54757C5.71632 6.6202 5.67068 6.68573 5.61336 6.74016L0.933861 11.2559C0.876561 11.3103 0.830931 11.3758 0.799748 11.4484C0.768566 11.5209 0.752485 11.5991 0.752485 11.6781C0.752485 11.7571 0.768566 11.8353 0.799748 11.9078C0.830931 11.9804 0.876561 12.0459 0.933861 12.1003Z" fill="#BF713E"/>
                             </svg>
@@ -230,42 +235,42 @@
                     <img  class="w-full h-full object-cover absolute" src="../assets/images/home/sector1.jpg" alt="">
                     <span class="sectorCardOverlay absolute bottom-0 left-0 w-full h-[90%] md:h-[17.8645833333vw] "></span>
                     <div class="pb-[16px]  md:pb-[1.66666666667vw] text-center w-full relative z-[5]">
-                        <h4 class="text-[#fff] text-[20px] md:text-[1.35416666667vw]">Services Sector</h4>
+                        <h4 class="text-[#fff] text-[20px] md:text-[1.35416666667vw]">قطاع الخدمات</h4>
                     </div>
                 </div>
                 <div data-aos="fade" data-aos-delay="600" class="swiper-slide relative flex items-end  h-[300px] w-[50vw]  md:w-[18.3854166667vw] md:h-[21.5625vw] rounded-[10px]  md:rounded-[0.52083333333vw] overflow-hidden">
                     <img  class="w-full h-full object-cover absolute" src="../assets/images/home/sector2.jpg" alt="">
                     <span class="sectorCardOverlay absolute bottom-0 left-0 w-full h-[90%] md:h-[17.8645833333vw] "></span>
                      <div class="pb-[16px]  md:pb-[1.66666666667vw] text-center w-full relative z-[5]">
-                        <h4 class="text-[#fff] text-[20px] md:text-[1.35416666667vw]">Manufacturing Sector</h4>
+                        <h4 class="text-[#fff] text-[20px] md:text-[1.35416666667vw]">قطاع الصناعة</h4>
                     </div>
                 </div>
                 <div data-aos="fade" data-aos-delay="800" class="swiper-slide relative flex items-end  h-[300px] w-[50vw]  md:w-[18.3854166667vw] md:h-[21.5625vw] rounded-[10px]  md:rounded-[0.52083333333vw] overflow-hidden">
                     <img  class="w-full h-full object-cover absolute" src="../assets/images/home/sector1.jpg" alt="">
                     <span class="sectorCardOverlay absolute bottom-0 left-0 w-full h-[90%] md:h-[17.8645833333vw] "></span>
                      <div class="pb-[16px]  md:pb-[1.66666666667vw] text-center w-full relative z-[5]">
-                        <h4 class="text-[#fff] text-[20px] md:text-[1.35416666667vw]">Investment Sector</h4>
+                        <h4 class="text-[#fff] text-[20px] md:text-[1.35416666667vw]">قطاع الاستثمار</h4>
                     </div>
                 </div>
                 <div data-aos="fade" data-aos-delay="1000" class="swiper-slide relative flex items-end  h-[300px] w-[50vw]  md:w-[18.3854166667vw] md:h-[21.5625vw] rounded-[10px]  md:rounded-[0.52083333333vw] overflow-hidden">
                     <img  class="w-full h-full object-cover absolute" src="../assets/images/home/sector2.jpg" alt="">
                     <span class="sectorCardOverlay absolute bottom-0 left-0 w-full h-[90%] md:h-[17.8645833333vw] "></span>
                      <div class="pb-[16px]  md:pb-[1.66666666667vw] text-center w-full relative z-[5]">
-                        <h4 class="text-[#fff] text-[20px] md:text-[1.35416666667vw]">Services Sector</h4>
+                        <h4 class="text-[#fff] text-[20px] md:text-[1.35416666667vw]">قطاع الخدمات</h4>
                     </div>
                 </div>
                 <div data-aos="fade" data-aos-delay="1200" class="swiper-slide relative flex items-end  h-[300px] w-[50vw]  md:w-[18.3854166667vw] md:h-[21.5625vw] rounded-[10px]  md:rounded-[0.52083333333vw] overflow-hidden">
                     <img  class="w-full h-full object-cover absolute" src="../assets/images/home/sector1.jpg" alt="">
                     <span class="sectorCardOverlay absolute bottom-0 left-0 w-full h-[90%] md:h-[17.8645833333vw] "></span>
                      <div class="pb-[16px]  md:pb-[1.66666666667vw] text-center w-full relative z-[5]">
-                        <h4 class="text-[#fff] text-[20px] md:text-[1.35416666667vw]">Investment Sector</h4>
+                        <h4 class="text-[#fff] text-[20px] md:text-[1.35416666667vw]">قطاع الاستثمار</h4>
                     </div>
                 </div>
                 <div data-aos="fade" data-aos-delay="1400" class="swiper-slide relative flex items-end  h-[300px] w-[50vw]  md:w-[18.3854166667vw] md:h-[21.5625vw] rounded-[10px]  md:rounded-[0.52083333333vw] overflow-hidden">
                     <img  class="w-full h-full object-cover absolute" src="../assets/images/home/sector2.jpg" alt="">
                     <span class="sectorCardOverlay absolute bottom-0 left-0 w-full h-[90%] md:h-[17.8645833333vw] "></span>
                      <div class="pb-[16px]  md:pb-[1.66666666667vw] text-center w-full relative z-[5]">
-                        <h4 class="text-[#fff] text-[20px] md:text-[1.35416666667vw]">Services Sector</h4>
+                        <h4 class="text-[#fff] text-[20px] md:text-[1.35416666667vw]">قطاع الخدمات</h4>
                     </div>
                 </div>
                
@@ -288,10 +293,11 @@
 
     <div class="flex flex-col w-[95%] adjustLeftMargin md:w-auto gap-y-[32px] md:gap-y-[3.75vw] pt-[40px] md:pt-[11.4583333333vw]">
         <div class="md:w-[43.90625vw] adjustRightPadding mx-auto md:text-center flex flex-col gap-y-[12px] md:gap-y-[1.66666666667vw]"> 
-            <h2 data-aos="fade-up" class="mainHeading text-[#BF713E] ">Investment Portfolio</h2>
+            <h2 data-aos="fade-up" class="mainHeading text-[#BF713E] ">استثماراتنا</h2>
             <div  data-aos="fade-down" class="tagLine text-[#000] mx-auto  md:w-[99.6%]
             ">
-            <p >We are proud of our companies that we established over the past four decades and that contribute to the growth of the national economy in accordance with the objectives of the Kingdom's Vision 2023.</p>
+            <p >نفخـر بشـركـاتـنا الـتي أسـسناھـا عـلى مـدى الأربـعة عـقود الـماضـیة والـتي تـساھـم فـي نـمو الاقــتصاد الــوطــني وفــقاً لمســتھدفــات رؤیــة
+                المملكة ٢٠٢٣</p>
         </div>
         </div>
        <div class="relative testiomonialCarousel">
@@ -327,8 +333,14 @@
     </div>
         
         <div class="w-[90%] md:w-[52.0833333333vw] mx-[auto] flex flex-col gap-y-[16px] md:gap-y-[1.66666666667vw] pt-[40px] md:pt-[11.3541666667vw]">
-    <h2 data-aos="fade-up" class="mainHeading text-[#BF713E] text-center">Contact Us</h2>
-    <form id="myForm"  class="flex flex-col gap-y-[16px] md:gap-y-[2.60416666667vw]">
+            <div class="mx-auto flex-col gap-y-[12px] md:w-[43.90625vw]  md:gap-y-[1.66666666667vw] text-center">
+                <h2 data-aos="fade-up" class="mainHeading text-[#BF713E] text-center">تواصل معنا</h2>
+                <div  data-aos="fade-down" class="tagLine text-[#000] mx-auto  md:w-[99.6%]
+                ">
+                <p >كیف یمكننا مساعدتك؟ <br> یسعدنا الرد على الاستفسارات المرسلة عبر النموذج التالي:</p>
+                </div>
+            </div>
+            <form id="myForm"  class="flex flex-col gap-y-[16px] md:gap-y-[2.60416666667vw]">
         <div class="flex justify-between flex-wrap gap-y-[16px] md:flex-nowrap">
             <div class="w-full md:w-auto">
                 <div class="Borderz flex items-center  h-[40px] md:h-[3.90625vw] px-[16px] md:px-[1.82291666667vw] bg-[#F7EDE7]
@@ -396,7 +408,7 @@
         <img src="../assets/images/effect 1.png" alt="" class="absolute top-0 left-0 w-full h-full">
     </div>
     <div class="relative z-[2]">
-        <div class="w-[87%] mx-[auto] md:mx-[unset] md:w-[81.1979166667vw] md:ml-[6.25vw] 
+        <div class="w-[87%] mx-[auto] md:mx-[unset] md:w-[81.1979166667vw] adjustFooterMargin 
         flex justify-between flex-col md:flex-row gap-y-[40px]
         ">
     <div class=" md:w-[24.53125vw] flex flex-col md:gap-y-[1.35416666667vw]
@@ -404,7 +416,7 @@
     ">
         <div class="w-[100px] h-[40px] md:w-[10.4166666667vw] md:h-[4.375vw]">
           <a href="./index.html">
-            <img src="../assets/images/footer-logo.svg" alt="footer-logo" class="w-full h-full object-contain">
+            <img  id='footerLogo' src="../assets/images/footer-logo.svg" alt="footer-logo" class="w-full h-full object-contain">
             
           </a>
                 
@@ -415,10 +427,10 @@
     <h5 class="tagLine uppercase text-[#BF713E] md:text-[#fff]">Company</h5>
     <div class="text-[#FFFFFF] flex   justify-between">
        <ul class="flex flex-col gap-y-[10px] md:gap-y-[0.83333333333vw]">
-        <li class="paragraph"><a href="./index.html" >Home</a></li>
-        <li class="paragraph"><a href="./about.html" >About us</a></li>
-        <li class="paragraph"><a href="./buisness-sectors.html" >Business Sectors</a></li>
-        <li class="paragraph"><a href="./contact-us.html" >Contact us</a></li>
+        <li class="paragraph"><a href="./index.html" >الصفحة الرئیسیة</a></li>
+        <li class="paragraph"><a href="./about.html" >عن المجموعة</a></li>
+        <li class="paragraph"><a href="./buisness-sectors.html" >قطاعات الأعمال</a></li>
+        <li class="paragraph"><a href="./contact-us.html" >تواصل معنا</a></li>
 
     </ul>
     
@@ -427,7 +439,7 @@
     </div>
     <div class="md:w-[18.3333333333vw] flex flex-col md:gap-y-[1.25vw]
     gap-y-[15px]">
-        <h5 class="tagLine uppercase text-[#BF713E] md:text-[#fff]">Contact Us</h5>
+        <h5 class="tagLine uppercase text-[#BF713E] md:text-[#fff]">تواصل معنا</h5>
     <div class="text-[#FFFFFF] flex flex-col md:gap-y-[0.83333333333vw]
     gap-y-[10px]">
         <a href="https://goo.gl/maps/5FKfmWsFB8gDX7my6" target="
@@ -466,11 +478,11 @@
             <div class="w-full h-full bg-[#000000] opacity-[0.2] absolute top-0 left-0">
 
             </div>
-            <div class="text-[#FFFFFF] flex justify-between Container md:h-[2.1875vw] relative z-[2] items-center flex-wrap
-            gap-y-[10px]">
+            <div class="text-[#FFFFFF]   flex justify-between Container md:h-[2.1875vw] relative z-[2] items-center flex-wrap
+           gap-y-[5px]  md:gap-y-[10px]">
            
-                <span class="paragraph">Developed by Brackets Technology</span>
-                <span class="paragraph">OMACO. All rights reserved @2023 </span>
+                <span class="text-[13px] md:text-[0.9375vw] md:leading-[1.40625vw]">Developed by Brackets Technology</span>
+                <span class="text-[13px] md:text-[0.9375vw] md:leading-[1.40625vw]">OMACO. All rights reserved @2023 </span>
                 <a href="">
                     <svg class="md:w-[0.9453125vw] md:h-[0.92083333333vw]" width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M18.9715 17.9878L14.9604 17.9715L14.9857 11.7572C14.9923 10.1309 14.3699 9.01783 12.9898 9.01221C11.9348 9.00791 11.3448 9.75502 11.0688 10.476C10.9651 10.7346 10.9797 11.0957 10.9782 11.4567L10.9518 17.9552L6.97816 17.939C6.97816 17.939 7.07415 6.93137 7.02708 5.93065L11.0007 5.94684L10.993 7.83164C11.2315 7.00842 12.5058 5.83764 14.5318 5.84589C17.0457 5.85613 19.0139 7.5912 18.9987 11.3108L18.9715 17.9878ZM3.01507 4.4122L2.98909 4.4121C1.70884 4.40688 0.882304 3.48562 0.887045 2.32204C0.891877 1.13592 1.75015 0.240542 3.05639 0.245863C4.36139 0.25118 5.16036 1.1511 5.18069 2.336C5.17595 3.49958 4.34441 4.41762 3.01507 4.4122ZM1.33026 5.90745L4.86746 5.92186L4.81854 17.9302L1.28134 17.9158L1.33026 5.90745Z" fill="white"></path>

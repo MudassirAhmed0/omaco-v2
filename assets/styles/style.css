@@ -257,7 +257,7 @@ html{
 
     }
     .exploreBtn {
-      @apply text-[14px]  md:text-[1.25vw] transition-all duration-[800ms] md:leading-[1.875vw] flex  opacity-[0.8] gap-x-[10px] md:gap-x-[0.72916666666vw] items-center
+      @apply text-[16px]  md:text-[1.25vw] transition-all duration-[800ms] md:leading-[1.875vw] flex  opacity-[0.8] gap-x-[10px] md:gap-x-[0.72916666666vw] items-center
     }
     .exploreSvg{
       @apply w-[6.5px] h-[11.9px] md:w-[0.41666666666vw] md:h-[0.67708333333vw] transition-all duration-[800ms]
@@ -268,16 +268,27 @@ html{
     .exploreBtn:hover{
       color: #BF713E;
     }
-    .exploreBtn:hover .exploreSvg{
-      transform: translateX(0.5vw);
+    .ltr .exploreBtn:hover .exploreSvg{
+      /* transform: translateX(0.5vw); */
+      @apply translate-x-[0.5vw]
+    }
+    .rtl .exploreBtn:hover .exploreSvg{
+      /* transform: translateX(0.5vw); */
+      @apply translate-x-[-0.5vw]
     }
      .paragraph{
-        @apply md:text-[0.9375vw] md:leading-[1.40625vw] 
+        @apply text-[14px] md:text-[0.9375vw] md:leading-[1.40625vw] 
         
+     }
+     .rtl .adjustTakeToTopRight{
+      @apply left-[4%] md:left-[0.9375vw]
+     }
+     .ltr .adjustTakeToTopRight{
+      @apply right-[4%] md:right-[0.9375vw]
      }
      .button{
         @apply  w-[180px] h-[40px] md:w-[11.8229166667vw] md:h-[3.17708333333vw]   border-[1px] flex justify-center 
-        items-center  transition-all duration-500 relative cursor-pointer
+        items-center  transition-all duration-500 relative cursor-pointer overflow-hidden
      }
      .link{
         @apply text-[1.25vw] leading-[1.52395833333vw] font-[500] 
@@ -313,7 +324,13 @@ html{
     @apply  flex flex-col md:flex-row md:gap-x-[4.79166666667vw] items-center
      }
 .our-service-cards-img{
-   @apply md:w-[11.4583333333vw] md:h-[11.4583333333vw]
+   @apply md:min-w-[11.4583333333vw] md:h-[11.4583333333vw]
+}
+.rtl .adjustFooterMargin{
+   @apply md:mr-[6.25vw]
+}
+.ltr .adjustFooterMargin{
+   @apply md:ml-[6.25vw]
 }
 .ourservice-readmore-wrapper{
  @apply    tagLine  text-[#183828]
@@ -337,6 +354,16 @@ html{
   
 }
 
+}
+
+#takeToTop.whiteIt{
+   border: 1px solid #fff;
+}
+#takeToTop svg path{
+   transition: all .8s;
+}
+#takeToTop.whiteIt svg path{
+   fill: #fff;
 }
 .histroyCircle{
    opacity: 0;

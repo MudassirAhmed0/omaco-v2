@@ -53,16 +53,20 @@
     <meta name="theme-color" content="#333333">
 </head>
 <body>
-    <div id="takeToTop" class="opacity-0 pointer-events-none transition-all duration-[800ms] w-[2.55208333333vw] h-[2.55208333333vw] fixed 
-    right-[0.9375vw]  flex justify-center items-center border-[1px] border-[#183828] rounded-[50%] bottom-[3.38541666667vw] z-[123] cursor-pointer  " onclick="topFunction()">
-        <img src="../assets/images/icons/ArrowNexttop.png" alt="" class="w-[1.27083333333vw] h-[1.27083333333vw] object-contain">
+    <div id="takeToTop" class="opacity-0 pointer-events-none transition-all duration-[800ms] w-[24px] h-[24px] md:w-[2.55208333333vw] md:h-[2.55208333333vw] fixed 
+    adjustTakeToTopRight  flex justify-center items-center border-[1px] border-[#183828] rounded-[50%] bottom-[3.38541666667vw] z-[123] cursor-pointer  " onclick="topFunction()">
+    <svg class="w-[16px] h-[16px] md:w-[1.27083333333vw] md:h-[1.27083333333vw] object-contain" viewBox="0 0 21 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M19.765 10.8097C20.1457 10.4144 20.1457 9.77504 19.765 9.38069L11.6985 1.02225C11.5206 0.835152 11.3066 0.686171 11.0694 0.584368C10.8323 0.482566 10.5768 0.430069 10.3187 0.430069C10.0606 0.430069 9.80519 0.482566 9.568 0.584368C9.33081 0.686171 9.1168 0.835152 8.93899 1.02225L0.812865 9.44121C0.631257 9.63228 0.529181 9.88531 0.527368 10.1489C0.525555 10.4125 0.624141 10.6669 0.803104 10.8605C0.891481 10.9564 0.998601 11.0331 1.11783 11.0859C1.23706 11.1387 1.36586 11.1664 1.49625 11.1675C1.62665 11.1685 1.75586 11.1427 1.87589 11.0917C1.99592 11.0408 2.10421 10.9657 2.19406 10.8712L9.6291 3.16579C9.71801 3.07217 9.82504 2.99761 9.94368 2.94666C10.0623 2.89572 10.1901 2.86944 10.3192 2.86944C10.4483 2.86944 10.5761 2.89572 10.6947 2.94666C10.8134 2.99761 10.9204 3.07217 11.0093 3.16579L18.3858 10.8097C18.4746 10.9033 18.5816 10.9779 18.7001 11.0288C18.8187 11.0797 18.9464 11.106 19.0754 11.106C19.2044 11.106 19.3321 11.0797 19.4507 11.0288C19.5693 10.9779 19.6762 10.9033 19.765 10.8097Z" fill="#183829"/>
+        </svg>
+           
+    <!-- <img src="../assets/images/icons/ArrowNexttop.png" alt="" > -->
     </div>
 
     <header class="absolute top-[3.38541666667vw] left-0 w-full z-[52]">
      
         <div class="Container flex justify-between items-center">
             <div class="w-[120px] h-[60px] md:w-[10.4166666667vw] md:h-[4.375vw]">
-                <a href="../">
+                <a href="./">
                     <img src="../assets/images/logo.svg" alt="Logo" class='relative top-[18px] md:top-0'>
                 </a>
                 
@@ -71,21 +75,21 @@
             <nav class="hidden md:block">
     <ul class="headerLinks flex gap-x-[2.08333333333vw] text-[#FFFFFF]">
         <li >
-            <a href="/" class=" link
-            ">Home</a>
+            <a href="./" class=" link
+            ">الصفحة الرئیسیة</a>
         </li>
         <li>
             <a href="./about.html" class="link
-            ">about us</a>
+            ">عن المجموعة</a>
         </li>
         <li class="active">
             <a href="./buisness-sectors.html" class=" link
-            ">business Sectors </a>
+            ">قطاعات الأعمال </a>
         </li>
        
         <li>
             <a href="./contact-us.html" class=" link
-            ">Contact us</a>
+            ">تواصل معنا</a>
         </li>
     </ul>
             </nav>
@@ -106,19 +110,19 @@
                      <li class="py-[15px] border-b-[1px] border-[#FFFFFF] active"><a href="./index.html" class=" 
                       
                       font-[300]  
-                            text-[18px] text-[#FFFFFF]    linkItem">Home</a></li>
+                            text-[18px] text-[#FFFFFF]    linkItem">الصفحة الرئیسیة</a></li>
                     <li class="py-[15px] border-b-[1px] border-[#FFFFFF]"><a  href="./about.html" class=" 
                       
                       font-[300]  
-                            text-[18px] text-[#FFFFFF]    linkItem">About Us</a></li>
+                            text-[18px] text-[#FFFFFF]    linkItem">عن المجموعة</a></li>
                     <li class="py-[15px] border-b-[1px] border-[#FFFFFF]"><a  href="./buisness-sectors.html" class=" 
                       
                       font-[300]  
-                            text-[18px] text-[#FFFFFF]    linkItem">business Sectors </a></li>
+                            text-[18px] text-[#FFFFFF]    linkItem">قطاعات الأعمال </a></li>
                     <li class="py-[15px] border-b-[1px] border-[#FFFFFF]"><a  href="./contact-us.html" class=" 
                       
                       font-[300]  
-                            text-[18px] text-[#FFFFFF]    linkItem">  Contact us </a></li>
+                            text-[18px] text-[#FFFFFF]    linkItem">  تواصل معنا </a></li>
                     
                   </ul>
                  
@@ -154,19 +158,20 @@ z-[4]">
 
 </span>
 <div class="relative z-[8] flex flex-col gap-y-[12px] md:gap-y-[1.30208333333vw]   ">
-    <div data-aos="fade" class="flex gap-x-[12px] md:w-[21.4583333333vw] md:gap-x-[0] md:justify-between items-center">
+    <div data-aos="fade" class="flex gap-x-[12px]  md:gap-x-[0.85vw]items-center">
         <img class="w-[14px] md:w-[1.44322916667vw] md:h-[1.51927083333vw]" src="../assets/images/icons/bannerHome.svg" alt="">
        
-            <a href="./index.html" class="tagLine text-[#FFFFFF]">Home</a>
+            <a href="./index.html" class="tagLine text-[#FFFFFF]">الصفحة الرئیسیة</a>
             <img  class=" w-[6px] md:w-[0.57291666666vw] md:h-[1.04166666667vw] fliped"src="../assets/images/icons/bannerChevron.svg" alt="">
 
-            <a href="./buisness-sectors.html" class="tagLine text-[#FFFFFF]">Business Sectors </a>
+            <a href="./buisness-sectors.html" class="tagLine text-[#FFFFFF]">قطاعات الأعمال</a>
 
     </div>
             
-        <h1 data-aos="fade-up" class="mainHeading text-[#FFFFFF]">Service sector</h1>  
+        <h1 data-aos="fade-up" class="mainHeading text-[#FFFFFF]">قطاع الخدمات</h1>  
         <p  data-aos="fade-down" class="tagLine text-[#FFFFFF] normal-case md:w-[42.96875vw]
-        md:mt-[0.36458333333vw]">The sector provides services of high quality and efficiency that meet the needs of beneficiaries of all categories in several areas, including (vehicle safety, logistics services, building systems, heavy equipment, and technical services).</p>      
+        md:mt-[0.36458333333vw]">یـقدم الـقطاع خـدمـات ذات جـودة وكـفاءة عـالـیة تـلبي احـتیاجـات المسـتفیدیـن بـمختلف فـئاتـھم
+        فـي عـدة مـجالات مـنھا 'سـلامـة الـمركـبات، الخــدمــات الــلوجســتیة، أنــظمة الــمبانــي، المعدات الثقیلة، والخدمات التقنیة&</p>      
 </div>
     </div>
 </section>
@@ -188,13 +193,14 @@ overflow-hidden">
             <img src="../assets/images/service-sector/motor-vehicle.png" alt="motor-vehicle"
             class="w-[80px] md:w-[4.09270833333vw] md:h-[4.16666666667vw]">
         <h4 class="shortHeading text-[#183828] md:mt-[0.57291666666vw]">
-            MVPI <br>
-        (Motor Vehicles Periodic Inspection)
+            
+            شــركــة الــفحص الــفني الــدوري للســیارات والمركبات
         </h4>
         <p class="tagLine text-[#183828]  md:leading-[2.21354166667vw]">
-            The periodic technical inspection program for cars was launched under the auspices of the...
+            تـم إطـلاق بـرنـامـج الـفحص الـفني الـدوري للســیارات فــي عــام 1986م. وعــلى مــدى الـسنوات الـتالـیة تـم إنـشاء شـبكة كـامـلة مـن مـراكـز الـفحص الـدوري فـي الـمملكة والـتي تـــق ّدم خـــدمـــات الـــفحص الـــفني الـــدوري
+            للمركبات بمختلف أنواعھا
         </p>
-        <a href="../investment-sector.html"  class="exploreBtn text-[#183828] ">
+        <a href="https://www.mvpi.com.sa/" target="_blank"  class="exploreBtn text-[#183828] ">
             Visit Website
             <svg  class="exploreSvg" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M0.933861 12.1003C1.17587 12.3333 1.56728 12.3333 1.80869 12.1003L6.9256 7.16203C7.04014 7.05318 7.13135 6.92217 7.19367 6.77696C7.25599 6.63176 7.28813 6.4754 7.28813 6.31738C7.28813 6.15937 7.25599 6.003 7.19367 5.8578C7.13135 5.71259 7.04014 5.58158 6.9256 5.47273L1.77164 0.498034C1.65467 0.386856 1.49977 0.324367 1.3384 0.323257C1.17702 0.322147 1.02128 0.3825 0.902788 0.492058C0.844091 0.546162 0.797125 0.611739 0.7648 0.684729C0.732474 0.75772 0.715477 0.836569 0.714861 0.916395C0.714245 0.996221 0.730023 1.07532 0.761218 1.1488C0.792412 1.22229 0.83836 1.28858 0.896215 1.34358L5.61336 5.89521C5.67068 5.94964 5.71632 6.01516 5.74751 6.08779C5.7787 6.16042 5.79478 6.23864 5.79478 6.31768C5.79478 6.39672 5.7787 6.47494 5.74751 6.54757C5.71632 6.6202 5.67068 6.68573 5.61336 6.74016L0.933861 11.2559C0.876561 11.3103 0.830931 11.3758 0.799748 11.4484C0.768566 11.5209 0.752485 11.5991 0.752485 11.6781C0.752485 11.7571 0.768566 11.8353 0.799748 11.9078C0.830931 11.9804 0.876561 12.0459 0.933861 12.1003Z" fill="#BF713E"/>
@@ -209,14 +215,14 @@ overflow-hidden">
             <img src="../assets/images/service-sector/Mitsubishi Electric.png" alt="Mitsubishi Electric"
             class="w-[160px] md:w-[10.3432291667vw] md:h-[4.16666666667vw]">
         <h4 class="shortHeading text-[#183828] md:mt-[0.57291666666vw]">
-            MELCO <br>
-            
-            Mitsubishi Electric Saudi Ltd
+            شـركـة مـیتسوبیشـي الكھـربـائـیة الـسعودیـة المحدودة
         </h4>
         <p class="tagLine text-[#183828]  md:leading-[2.21354166667vw]">
-            The Saudi Mitsubishi Electric Company Limited (Melsa) was established in 1980 with the...
+            تــأسســت شــركــة مــیتسوبیشــي الكھــربــائــیة الـسعودیـة المحـدودة 'مـیلسا&!فـي عـام +*)(! بشــراكــة كــل مــن شــركــة مــیتسوبیشــي الكھـربـائـیة الـیابـانـیة '0/.-,&!ومجـموعـة
+أومــاكــو فــي الــمملكة الــعربــیة الــسعودیــة"! یـتضمن الـعمل الأسـاسـي تـوریـد وتـركـیب وصــیانــة الــمصاعــد والســلالــم والــممرات
+المتحركة"
         </p>
-        <a href="../investment-sector.html"  class="exploreBtn text-[#183828] md:mt-[0.72916666666vw]">
+        <a href="https://www.melsa.com.sa/" target="_blank"  class="exploreBtn text-[#183828] md:mt-[0.72916666666vw]">
             Visit Website
             <svg  class="exploreSvg" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M0.933861 12.1003C1.17587 12.3333 1.56728 12.3333 1.80869 12.1003L6.9256 7.16203C7.04014 7.05318 7.13135 6.92217 7.19367 6.77696C7.25599 6.63176 7.28813 6.4754 7.28813 6.31738C7.28813 6.15937 7.25599 6.003 7.19367 5.8578C7.13135 5.71259 7.04014 5.58158 6.9256 5.47273L1.77164 0.498034C1.65467 0.386856 1.49977 0.324367 1.3384 0.323257C1.17702 0.322147 1.02128 0.3825 0.902788 0.492058C0.844091 0.546162 0.797125 0.611739 0.7648 0.684729C0.732474 0.75772 0.715477 0.836569 0.714861 0.916395C0.714245 0.996221 0.730023 1.07532 0.761218 1.1488C0.792412 1.22229 0.83836 1.28858 0.896215 1.34358L5.61336 5.89521C5.67068 5.94964 5.71632 6.01516 5.74751 6.08779C5.7787 6.16042 5.79478 6.23864 5.79478 6.31768C5.79478 6.39672 5.7787 6.47494 5.74751 6.54757C5.71632 6.6202 5.67068 6.68573 5.61336 6.74016L0.933861 11.2559C0.876561 11.3103 0.830931 11.3758 0.799748 11.4484C0.768566 11.5209 0.752485 11.5991 0.752485 11.6781C0.752485 11.7571 0.768566 11.8353 0.799748 11.9078C0.830931 11.9804 0.876561 12.0459 0.933861 12.1003Z" fill="#BF713E"/>
@@ -231,14 +237,13 @@ overflow-hidden">
             <img src="../assets/images/service-sector/AHE.png" alt="AHE"
             class="w-[76px] md:w-[4.50729166667vw] md:h-[4.16666666667vw]">
         <h4 class="shortHeading text-[#183828] md:mt-[0.57291666666vw]">
-            AHE <br>
-            
-            Alesayi Heavy Equipment
+            شــركــة عــمر قــاســم الــعیسائــي وشــركــاه المحدودة - المعدات الثقیلة
         </h4>
         <p class="tagLine text-[#183828]  md:leading-[2.21354166667vw]">
-            Omar Qassim Al-Esayi & Co. Ltd. Heavy Equipment Branch sells, rents and supplies...
+            تـقوم شـركـة عـمر قـاسـم الـعیسائـي وشـركـاه المحـدودة فـرع الـمعدات الـثقیلة بـبیع وتـأجـیر وتــوریــد الــمعدات الــثقیلة وتــقدم خــدمــات الـصیانـة و قـطع الـغیار، كـما تـعطي خـیارات واسـعة لـلعملاء لاخـتیار الـمعدات الـتي تـناسـب أعـمالـھم مـن خـلال شـراكـاتـھا مـع عـلامـات
+تجاریة عالمیة في قطاع المعدات الثقیلة
         </p>
-        <a href="../investment-sector.html"  class="exploreBtn text-[#183828] md:mt-[0.72916666666vw]">
+        <a href="https://www.ahe-sa.com/" target="_blank"  class="exploreBtn text-[#183828] md:mt-[0.72916666666vw]">
             Visit Website
             <svg  class="exploreSvg" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M0.933861 12.1003C1.17587 12.3333 1.56728 12.3333 1.80869 12.1003L6.9256 7.16203C7.04014 7.05318 7.13135 6.92217 7.19367 6.77696C7.25599 6.63176 7.28813 6.4754 7.28813 6.31738C7.28813 6.15937 7.25599 6.003 7.19367 5.8578C7.13135 5.71259 7.04014 5.58158 6.9256 5.47273L1.77164 0.498034C1.65467 0.386856 1.49977 0.324367 1.3384 0.323257C1.17702 0.322147 1.02128 0.3825 0.902788 0.492058C0.844091 0.546162 0.797125 0.611739 0.7648 0.684729C0.732474 0.75772 0.715477 0.836569 0.714861 0.916395C0.714245 0.996221 0.730023 1.07532 0.761218 1.1488C0.792412 1.22229 0.83836 1.28858 0.896215 1.34358L5.61336 5.89521C5.67068 5.94964 5.71632 6.01516 5.74751 6.08779C5.7787 6.16042 5.79478 6.23864 5.79478 6.31768C5.79478 6.39672 5.7787 6.47494 5.74751 6.54757C5.71632 6.6202 5.67068 6.68573 5.61336 6.74016L0.933861 11.2559C0.876561 11.3103 0.830931 11.3758 0.799748 11.4484C0.768566 11.5209 0.752485 11.5991 0.752485 11.6781C0.752485 11.7571 0.768566 11.8353 0.799748 11.9078C0.830931 11.9804 0.876561 12.0459 0.933861 12.1003Z" fill="#BF713E"/>
@@ -253,14 +258,13 @@ overflow-hidden">
             <img src="../assets/images/service-sector/UWC.png" alt="UWC"
             class="w-[182px] md:w-[11.5625vw] md:h-[4.16666666667vw]">
         <h4 class="shortHeading text-[#183828] md:mt-[0.57291666666vw]">
-            UWC <br>
-            
-            United Warehouse Co Ltd
+            شـــركـــة الـــمخازن المتحـــدة المحـــدودة ! United Warehouse Co Ltd (UWC)
         </h4>
         <p class="tagLine text-[#183828]  md:leading-[2.21354166667vw]">
-            United Warehousing Company Limited (UWC) provides warehousing and ancillary services...
+            تــوف ِّــر شــركــة الــمخازن المتّحــدة المحــدودة '/>=&!خــدمــات التخــزیــن والخــدمــات الإضـافـیة الـمكملة لـعملائـھا بـكافـة أنشـطتھا الــمتنوعــة عــلى مــدار @?!ســاعــة یــومــیاً ویـمكنھا الـتعامـل بـكفاءة تـامـة مـع مـا لا یـقل
+عن '++@&!شاحنة نقل یومیاً
         </p>
-        <a href="../investment-sector.html"  class="exploreBtn text-[#183828] md:mt-[0.72916666666vw]">
+        <a href="https://www.uwc-logistic- s.com.sa/" target="_blank"  class="exploreBtn text-[#183828] md:mt-[0.72916666666vw]">
             Visit Website
             <svg  class="exploreSvg" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M0.933861 12.1003C1.17587 12.3333 1.56728 12.3333 1.80869 12.1003L6.9256 7.16203C7.04014 7.05318 7.13135 6.92217 7.19367 6.77696C7.25599 6.63176 7.28813 6.4754 7.28813 6.31738C7.28813 6.15937 7.25599 6.003 7.19367 5.8578C7.13135 5.71259 7.04014 5.58158 6.9256 5.47273L1.77164 0.498034C1.65467 0.386856 1.49977 0.324367 1.3384 0.323257C1.17702 0.322147 1.02128 0.3825 0.902788 0.492058C0.844091 0.546162 0.797125 0.611739 0.7648 0.684729C0.732474 0.75772 0.715477 0.836569 0.714861 0.916395C0.714245 0.996221 0.730023 1.07532 0.761218 1.1488C0.792412 1.22229 0.83836 1.28858 0.896215 1.34358L5.61336 5.89521C5.67068 5.94964 5.71632 6.01516 5.74751 6.08779C5.7787 6.16042 5.79478 6.23864 5.79478 6.31768C5.79478 6.39672 5.7787 6.47494 5.74751 6.54757C5.71632 6.6202 5.67068 6.68573 5.61336 6.74016L0.933861 11.2559C0.876561 11.3103 0.830931 11.3758 0.799748 11.4484C0.768566 11.5209 0.752485 11.5991 0.752485 11.6781C0.752485 11.7571 0.768566 11.8353 0.799748 11.9078C0.830931 11.9804 0.876561 12.0459 0.933861 12.1003Z" fill="#BF713E"/>
@@ -275,12 +279,12 @@ overflow-hidden">
             <img src="../assets/images/service-sector/Technoval.png" alt="Technoval"
             class="w-[146px] md:w-[9.70885416667vw] md:h-[4.16666666667vw]">
         <h4 class="shortHeading text-[#183828] md:mt-[0.57291666666vw]">
-            Technoval
+            شركة تكنوDال $!!Technoval
         </h4>
         <p class="tagLine text-[#183828]  md:leading-[2.21354166667vw]">
-            Technofal provides technical services in the Middle East and North Africa region for various..
-        </p>
-        <a href="../investment-sector.html"  class="exploreBtn text-[#183828] md:mt-[0.72916666666vw]">
+            تـوفـر شـركـة تـكنوفـال الخـدمـات الـتقنیة فـي مــنطقة الشــرق الأوســط وشــمال افــریــقیا لـمختلف الـقطاعـات و خـصوصـا خـدمـات
+ادارة موارد الشركات 'EFG!-HG&"</p>
+        <a href="" target="_blank"  class="exploreBtn text-[#183828] md:mt-[0.72916666666vw]">
             Visit Website
             <svg  class="exploreSvg" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M0.933861 12.1003C1.17587 12.3333 1.56728 12.3333 1.80869 12.1003L6.9256 7.16203C7.04014 7.05318 7.13135 6.92217 7.19367 6.77696C7.25599 6.63176 7.28813 6.4754 7.28813 6.31738C7.28813 6.15937 7.25599 6.003 7.19367 5.8578C7.13135 5.71259 7.04014 5.58158 6.9256 5.47273L1.77164 0.498034C1.65467 0.386856 1.49977 0.324367 1.3384 0.323257C1.17702 0.322147 1.02128 0.3825 0.902788 0.492058C0.844091 0.546162 0.797125 0.611739 0.7648 0.684729C0.732474 0.75772 0.715477 0.836569 0.714861 0.916395C0.714245 0.996221 0.730023 1.07532 0.761218 1.1488C0.792412 1.22229 0.83836 1.28858 0.896215 1.34358L5.61336 5.89521C5.67068 5.94964 5.71632 6.01516 5.74751 6.08779C5.7787 6.16042 5.79478 6.23864 5.79478 6.31768C5.79478 6.39672 5.7787 6.47494 5.74751 6.54757C5.71632 6.6202 5.67068 6.68573 5.61336 6.74016L0.933861 11.2559C0.876561 11.3103 0.830931 11.3758 0.799748 11.4484C0.768566 11.5209 0.752485 11.5991 0.752485 11.6781C0.752485 11.7571 0.768566 11.8353 0.799748 11.9078C0.830931 11.9804 0.876561 12.0459 0.933861 12.1003Z" fill="#BF713E"/>
@@ -305,7 +309,7 @@ overflow-hidden">
         <img src="../assets/images/effect 1.png" alt="" class="absolute top-0 left-0 w-full h-full">
     </div>
     <div class="relative z-[2]">
-        <div class="w-[87%] mx-[auto] md:mx-[unset] md:w-[81.1979166667vw] md:ml-[6.25vw] 
+        <div class="w-[87%] mx-[auto] md:mx-[unset] md:w-[81.1979166667vw] adjustFooterMargin
         flex justify-between flex-col md:flex-row gap-y-[40px]
         ">
     <div class=" md:w-[24.53125vw] flex flex-col md:gap-y-[1.35416666667vw]
@@ -313,7 +317,7 @@ overflow-hidden">
     ">
         <div class="w-[100px] h-[40px] md:w-[10.4166666667vw] md:h-[4.375vw]">
           <a href="./index.html">
-            <img src="../assets/images/footer-logo.svg" alt="footer-logo" class="w-full h-full object-contain">
+            <img  id='footerLogo' src="../assets/images/footer-logo.svg" alt="footer-logo" class="w-full h-full object-contain">
             
           </a>
                 
@@ -324,10 +328,10 @@ overflow-hidden">
     <h5 class="tagLine uppercase text-[#BF713E] md:text-[#fff]">Company</h5>
     <div class="text-[#FFFFFF] flex   justify-between">
        <ul class="flex flex-col gap-y-[10px] md:gap-y-[0.83333333333vw]">
-        <li class="paragraph"><a href="./index.html" >Home</a></li>
-        <li class="paragraph"><a href="./about.html" >About us</a></li>
-        <li class="paragraph"><a href="./buisness-sectors.html" >Business Sectors</a></li>
-        <li class="paragraph"><a href="./contact-us.html" >Contact us</a></li>
+        <li class="paragraph"><a href="./index.html" >الصفحة الرئیسیة</a></li>
+        <li class="paragraph"><a href="./about.html" >عن المجموعة</a></li>
+        <li class="paragraph"><a href="./buisness-sectors.html" >قطاعات الأعمال</a></li>
+        <li class="paragraph"><a href="./contact-us.html" >تواصل معنا</a></li>
 
     </ul>
     
@@ -336,7 +340,7 @@ overflow-hidden">
     </div>
     <div class="md:w-[18.3333333333vw] flex flex-col md:gap-y-[1.25vw]
     gap-y-[15px]">
-        <h5 class="tagLine uppercase text-[#BF713E] md:text-[#fff]">Contact Us</h5>
+        <h5 class="tagLine uppercase text-[#BF713E] md:text-[#fff]">تواصل معنا</h5>
     <div class="text-[#FFFFFF] flex flex-col md:gap-y-[0.83333333333vw]
     gap-y-[10px]">
         <a href="https://goo.gl/maps/5FKfmWsFB8gDX7my6" target="
@@ -375,11 +379,11 @@ overflow-hidden">
             <div class="w-full h-full bg-[#000000] opacity-[0.2] absolute top-0 left-0">
 
             </div>
-            <div class="text-[#FFFFFF] flex justify-between Container md:h-[2.1875vw] relative z-[2] items-center flex-wrap
-            gap-y-[10px]">
+           <div class="text-[#FFFFFF]   flex justify-between Container md:h-[2.1875vw] relative z-[2] items-center flex-wrap
+           gap-y-[5px]  md:gap-y-[10px]">
            
-                <span class="paragraph">Developed by Brackets Technology</span>
-                <span class="paragraph">OMACO. All rights reserved @2023 </span>
+                <span class="text-[13px] md:text-[0.9375vw] md:leading-[1.40625vw]">Developed by Brackets Technology</span>
+                <span class="text-[13px] md:text-[0.9375vw] md:leading-[1.40625vw]">OMACO. All rights reserved @2023 </span>
                 <a href="">
                     <svg class="md:w-[0.9453125vw] md:h-[0.92083333333vw]" width="19" height="18" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M18.9715 17.9878L14.9604 17.9715L14.9857 11.7572C14.9923 10.1309 14.3699 9.01783 12.9898 9.01221C11.9348 9.00791 11.3448 9.75502 11.0688 10.476C10.9651 10.7346 10.9797 11.0957 10.9782 11.4567L10.9518 17.9552L6.97816 17.939C6.97816 17.939 7.07415 6.93137 7.02708 5.93065L11.0007 5.94684L10.993 7.83164C11.2315 7.00842 12.5058 5.83764 14.5318 5.84589C17.0457 5.85613 19.0139 7.5912 18.9987 11.3108L18.9715 17.9878ZM3.01507 4.4122L2.98909 4.4121C1.70884 4.40688 0.882304 3.48562 0.887045 2.32204C0.891877 1.13592 1.75015 0.240542 3.05639 0.245863C4.36139 0.25118 5.16036 1.1511 5.18069 2.336C5.17595 3.49958 4.34441 4.41762 3.01507 4.4122ZM1.33026 5.90745L4.86746 5.92186L4.81854 17.9302L1.28134 17.9158L1.33026 5.90745Z" fill="white"></path>
