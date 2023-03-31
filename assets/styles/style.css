@@ -324,7 +324,7 @@ html{
     @apply  flex flex-col md:flex-row md:gap-x-[4.79166666667vw] items-center
      }
 .our-service-cards-img{
-   @apply md:min-w-[11.4583333333vw] md:h-[11.4583333333vw]
+   @apply md:w-[11.4583333333vw] md:min-w-[11.4583333333vw] md:h-[11.4583333333vw]
 }
 .rtl .adjustFooterMargin{
    @apply md:mr-[6.25vw]
