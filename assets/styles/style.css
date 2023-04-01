@@ -73,6 +73,7 @@ body{
 }
 .rtl body{
    font-family: "GE SS";
+   word-spacing: 2px;
 
 }
 html{
