@@ -1339,8 +1339,16 @@ video {
   top: 5vw;
 }
 
-.top-\[-9vw\] {
-  top: -9vw;
+.bottom-\[65px\] {
+  bottom: 65px;
+}
+
+.left-\[50\%\] {
+  left: 50%;
+}
+
+.bottom-\[55px\] {
+  bottom: 55px;
 }
 
 .z-\[123\] {
@@ -1650,6 +1658,10 @@ video {
   height: 100%;
 }
 
+.h-\[25px\] {
+  height: 25px;
+}
+
 .min-h-\[400px\] {
   min-height: 400px;
 }
@@ -1906,19 +1918,26 @@ video {
   width: 100%;
 }
 
+.w-\[25px\] {
+  width: 25px;
+}
+
+.w-\[40px\] {
+  width: 40px;
+}
+
 .translate-y-\[-50\%\] {
   --tw-translate-y: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.rotate-\[180deg\] {
-  --tw-rotate: 180deg;
+.translate-x-\[-50\%\] {
+  --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.scale-\[1\.15\] {
-  --tw-scale-x: 1.15;
-  --tw-scale-y: 1.15;
+.rotate-\[180deg\] {
+  --tw-rotate: 180deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -2118,6 +2137,10 @@ video {
 
 .border-\[2px\] {
   border-width: 2px;
+}
+
+.border {
+  border-width: 1px;
 }
 
 .border-b-\[1px\] {
@@ -2321,6 +2344,10 @@ video {
   padding-top: 80px;
 }
 
+.pb-\[140px\] {
+  padding-bottom: 140px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -2339,6 +2366,10 @@ video {
 
 .text-\[20px\] {
   font-size: 20px;
+}
+
+.text-\[11px\] {
+  font-size: 11px;
 }
 
 .font-\[300\] {
@@ -2778,8 +2809,9 @@ transform: rotate(-180deg); */
 }
 
 .overlay1{
-  background: linear-gradient(180deg, #183828 0%, rgba(24, 56, 41, 0) 100%);
-  opacity: 0.9;
+  background: linear-gradient(180deg, #183828 25%, rgba(24, 56, 41, 0) 100%);
+  opacity: 1;
+  height: 22vw;
 }
 
 .bannerOverlay1{
@@ -2871,8 +2903,9 @@ ul.tagLine{
 }
 
 .service-hero-overlay2{
-  background: linear-gradient(180deg, #183828 0%, rgba(24, 56, 41, 0) 100%);
+  background: linear-gradient(180deg, #183828 25%, rgba(24, 56, 41, 0) 100%);
   transform: rotate(180deg);
+  height: 22vw;
 }
 
 .service-hero-overlay3{
@@ -3357,10 +3390,6 @@ body.active{
     height: 100%;
   }
 
-  .md\:min-h-\[68\.6979166667vw\] {
-    min-height: 68.6979166667vw;
-  }
-
   .md\:min-h-\[59\.6979166667vw\] {
     min-height: 59.6979166667vw;
   }
@@ -3649,40 +3678,8 @@ body.active{
     width: 100%;
   }
 
-  .md\:max-w-\[23\.4375vw\] {
-    max-width: 23.4375vw;
-  }
-
-  .md\:max-w-\[26\.1vw\] {
-    max-width: 26.1vw;
-  }
-
-  .md\:max-w-\[27\.5vw\] {
-    max-width: 27.5vw;
-  }
-
-  .md\:max-w-\[29\.1145833333vw\] {
-    max-width: 29.1145833333vw;
-  }
-
-  .md\:max-w-\[29\.6875vw\] {
-    max-width: 29.6875vw;
-  }
-
   .md\:max-w-\[80\%\] {
     max-width: 80%;
-  }
-
-  .md\:max-w-\[35vw\] {
-    max-width: 35vw;
-  }
-
-  .md\:max-w-\[32vw\] {
-    max-width: 32vw;
-  }
-
-  .md\:max-w-\[30vw\] {
-    max-width: 30vw;
   }
 
   .md\:max-w-\[90\%\] {
