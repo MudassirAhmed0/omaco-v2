@@ -1271,10 +1271,6 @@ video {
   bottom: 19.2708333333vw;
 }
 
-.bottom-\[2\.23958333333vw\] {
-  bottom: 2.23958333333vw;
-}
-
 .bottom-\[3\.38541666667vw\] {
   bottom: 3.38541666667vw;
 }
@@ -2617,6 +2613,11 @@ html{
 
 .active .historyBorder{
   transform: scaleX(1);
+}
+
+.langSwitcher{
+  border: none;
+  font-family: "Montserrat";
 }
 
 .centeredLineContainer .tagLine{

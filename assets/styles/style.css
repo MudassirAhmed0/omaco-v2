@@ -384,7 +384,10 @@ html{
    transform: scaleX(1);
 
 }
-
+.langSwitcher{
+   border: none;
+   font-family: "Montserrat";
+}
 .centeredLineContainer .tagLine{
    transform: translateY(-30px);
    transition: all .8s;

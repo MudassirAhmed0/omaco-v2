@@ -18,6 +18,14 @@ function isElementInViewport(el) {
   const footer = document.querySelector('#footerLogo')
   const takeToTop = document.getElementById('takeToTop')
   
+  const handleLang =()=>{
+    console.log(window.location)
+    if(window.location.href.includes('/ar/')){
+      window.location.href= window.location.href.replace('/ar/',"/")
+    }else{
+      window.location.href = window.location.origin +"/ar"+window.location.pathname 
+    }
+  }
 window.addEventListener('scroll',()=>{
   if(isElementInViewport(footer)){
     takeToTop.classList.add("whiteIt")
