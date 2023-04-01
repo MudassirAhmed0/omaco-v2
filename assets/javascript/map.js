@@ -1,9 +1,9 @@
 
 function myMap() {
     var mapProp = {  
-         center: { lat:27.920091, lng: 34.903958 },  
+         center: { lat:21.5533311, lng: 39.1716305 },  
         //  center: ( ),  
-        zoom: 9.5,
+        zoom: 14,
         draggable: true
     };
 
@@ -13,7 +13,7 @@ function myMap() {
    
  
     marker = new google.maps.Marker({
-        position: new google.maps.LatLng(27.934363695177673,34.904101026832535) ,
+        position: new google.maps.LatLng(21.5533311,39.1716305) ,
         map: map,
     });
 }

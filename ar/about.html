@@ -157,7 +157,7 @@
     </div>
 </section>
 
-<section class="relative overflow-hidden bg-[#FAF4F1]">
+<section id="firstElement" class="relative overflow-hidden bg-[#FAF4F1]">
  <div class=" bgImg w-full h-[79.53125vw] left-0 top-[-1.875vw]">
 <img src="../assets/images/about/abstract 1.png" alt="" class="w-full h-full object-contain">
  </div>
@@ -170,20 +170,14 @@
         justify-between flex-col-reverse gap-y-[24px] md:flex-row
         ">
             <div class="md:w-[26.4583333333vw] w-100% md:h-[24.0625vw]">
-                <img src="../assets/images/about/shape 1.png" data-aos="fade" alt="" class="md:w-full w-[70%] mx-auto block md:h-full object-contain">
+                <img src="../assets/images/about/shape 1.png" data-aos-anchor='firstElement' data-aos="fade" alt="" class="md:w-full w-[70%] mx-auto block md:h-full object-contain">
             </div>
             <div class="md:w-[47.6041666667vw] flex flex-col gap-y-[12px] md:gap-y-[1.66666666667vw]">
-                <h2 class="mainHeading text-[#BF713E]  " data-aos="fade-up">ﻋﻦ ﺍﻟﻤﺠﻤﻮﻋﺔ</h2>
-                <div data-aos="fade-down" class="text-[#000000] md:h-[16.875vw] gap-y-[12px] tagLine flex flex-col md:justify-between">
-                    <p class="">مجـموعـة أومـاكـو ھـي شـركـة سـعودیـة تـأسسـت
-                        عـام 1980م، تسـتثمر وتـساھـم فـي إدارة عـدة
-                        شـركـات فـي قـطاعـات الـصناعـة والخـدمـات
-                        والاسـتثمار، كـما تـمثل الـعدیـد مـن الشـركـات
-                        الـعالـمیة فـي الـمملكة، وتـسعى المجـموعـة إلـى
-                        تـنویـع اسـتثماراتـھا المحـلیة وتـنمیة الاقـتصاد
-                        الـوطـني بـما یـتواءم مـع رؤیـة الـمملكة 2030،
-                        وذلــك مــن خــلال خــبرتــھا الــتي تــجاوزت
-                        الأربعین ع ًاما.</p>
+                <h2 data-aos-anchor='firstElement' class="mainHeading text-[#BF713E]  " data-aos="fade-up">ﻋﻦ ﺍﻟﻤﺠﻤﻮﻋﺔ</h2>
+                <div data-aos-anchor='firstElement' data-aos="fade-down" class="text-[#000000] md:h-[16.875vw] gap-y-[12px] tagLine flex flex-col md:justify-between">
+                    <p class="">
+                        ﻣﺠﻤﻮﻋﺔ ﺃﻭﻣﺎﻛﻮ ﻫﻲ ﺷﺮﻛﺔ ﺳﻌﻮﺩﻳﺔ ﺗﺄﺳﺴﺖ ﻋﺎﻡ 1980ﻡ، ﺗﺴﺘﺜﻤﺮ ﻭﺗﺴﺎﻫﻢ ﻓﻲ ﺇﺩﺍﺭﺓ ﻋﺪﺓ ﺷﺮﻛﺎﺕ ﻓﻲ ﻗﻄﺎﻋﺎﺕ ﺍﻟﺼﻨﺎﻋﺔ ﻭﺍﻟﺨﺪﻣﺎﺕ ﻭﺍﻻﺳﺘﺜﻤﺎﺭ، ﻛﻤﺎ ﺗﻤﺜﻞ ﺍﻟﻌﺪﻳﺪ ﻣﻦ ﺍﻟﺸﺮﻛﺎﺕ ﺍﻟﻌﺎﻟﻤﻴﺔ ﻓﻲ ﺍﻟﻤﻤﻠﻜﺔ، ﻭﺗﺴﻌﻰ ﺍﻟﻤﺠﻤﻮﻋﺔ ﺇﻟﻰ ﺗﻨﻮﻳﻊ ﺍﺳﺘﺜﻤﺎﺭﺍﺗﻬﺎ ﺍﻟﻤﺤﻠﻴﺔ ﻭﺗﻨﻤﻴﺔ ﺍﻻﻗﺘﺼﺎﺩ ﺍﻟﻮﻃﻨﻲ ﺑﻤﺎ ﻳﺘﻮﺍﺀﻡ ﻣﻊ ﺭﺅﻳﺔ ﺍﻟﻤﻤﻠﻜﺔ 2030، ﻭﺫﻟﻚ ﻣﻦ ﺧﻼﻝ ﺧﺒﺮﺗﻬﺎ ﺍﻟﺘﻲ ﺗﺠﺎﻭﺯﺕ ﺍﻷﺭﺑﻌﻴﻦ ﻋﺎﻣًﺎ. 
+                    </p>
                 </div>
             </div>
         </div>
@@ -196,10 +190,10 @@
                     <lottie-player src="../assets/jsons/vision.json"  background="transparent"  speed="0.5"  class="w-full h-full lottie"  ></lottie-player>
                 </div>
                 <h2 class="mainHeading text-[#183829]  relative
-                before:content-[''] before:w-[60px] md:before:w-[5.83333333333vw] before:h-[1px] before:absolute adjustBeforeLeft before:bottom-[-0.83333333333vw] before:bg-[#BF713E] ">الرؤیة</h2>
+                before:content-[''] before:w-[60px] md:before:w-[5.83333333333vw] before:h-[1px] before:absolute adjustBeforeLeft before:bottom-[-0.83333333333vw] before:bg-[#BF713E] ">ﺍﻟﺮﺅﻳﺔ</h2>
               </div>
               <div data-aos="fade" data-aos-delay="400" class="md:w-[39.4791666667vw]">
-                <p class="tagLine text-[#183828]">أن نكون شركة إستثمارية .قابضة رائدة إقليمياً تقدّم أفضل قيمة لكافة الأطراف.</p>
+                <p class="tagLine text-[#183828]">ﺃﻥ ﻧﻜﻮﻥ ﺷﺮﻛﺔ ﺇﺳﺘﺜﻤﺎﺭﻳﺔ ﻗﺎﺑﻀﺔ ﺭﺍﺋﺪﺓ ﺇﻗﻠﻴﻤﻴﺎً ﺗﻘﺪّﻡ ﺃﻓﻀﻞ ﻗﻴﻤﺔ ﻟﻜﺎﻓﺔ ﺍﻷﻃﺮﺍﻑ.</p>
               </div>
             </div>
             <div class="flex gap-x-[6.51041666667vw] gap-y-[12px] md:items-center flex-col md:flex-row">
@@ -210,10 +204,10 @@
                     
                 </div>
                 <h2 class="mainHeading text-[#183829]  relative
-                before:content-[''] before:w-[60px] md:before:w-[5.83333333333vw] before:h-[1px] before:absolute adjustBeforeLeft before:bottom-[-0.83333333333vw] before:bg-[#BF713E] mt-[-0.234375vw]">المھمة</h2>
+                before:content-[''] before:w-[60px] md:before:w-[5.83333333333vw] before:h-[1px] before:absolute adjustBeforeLeft before:bottom-[-0.83333333333vw] before:bg-[#BF713E] mt-[-0.234375vw]">ﺍﻟﻤﻬﻤﺔ</h2>
               </div>
               <div  data-aos="fade" data-aos-delay="400" class="md:w-[50.0520833333vw] mt-[0.57291666666vw]">
-                <p class="tagLine text-[#183828]">نهدف إلى تنويع استثماراتنا في قطاعات الصناعة والخدمات والعقار، لتحقيق أفضل العوائد الاستثمارية بتقديم منتجات وخدمات متميزة لعملائنا.</p>
+                <p class="tagLine text-[#183828]">ﻧﻬﺪﻑ ﺇﻟﻰ ﺗﻨﻮﻳﻊ ﺍﺳﺘﺜﻤﺎﺭﺍﺗﻨﺎ ﻓﻲ ﻗﻄﺎﻋﺎﺕ ﺍﻟﺼﻨﺎﻋﺔ ﻭﺍﻟﺨﺪﻣﺎﺕ ﻭﺍﻟﻌﻘﺎﺭ، ﻟﺘﺤﻘﻴﻖ ﺃﻓﻀﻞ ﺍﻟﻌﻮﺍﺋﺪ ﺍﻻﺳﺘﺜﻤﺎﺭﻳﺔ ﺑﺘﻘﺪﻳﻢ ﻣﻨﺘﺠﺎﺕ ﻭﺧﺪﻣﺎﺕ ﻣﺘﻤﻴﺰﺓ ﻟﻌﻤﻼﺋﻨﺎ.</p>
               </div>
             </div>
             <div class="flex gap-x-[7.8125vw] flex-col md:flex-row gap-y-[12px] items-start">
@@ -224,20 +218,20 @@
                     
                 </div>
                 <h2 class="mainHeading text-[#183829]  relative
-                before:content-[''] before:w-[60px] md:before:w-[5.83333333333vw] before:h-[1px] before:absolute adjustBeforeLeft before:bottom-[-0.83333333333vw] before:bg-[#BF713E] mt-[0.20833333333vw]">القیم</h2>
+                before:content-[''] before:w-[60px] md:before:w-[5.83333333333vw] before:h-[1px] before:absolute adjustBeforeLeft before:bottom-[-0.83333333333vw] before:bg-[#BF713E] mt-[0.20833333333vw]">ﺍﻟﻘﻴﻢ</h2>
               </div>
               <div class="flex gap-y-[16px] flex-col md:flex-row md:gap-x-[3.02083333333vw] md:mt-[0.88541666666vw]">
                 <div data-aos="fade" data-aos-delay="400"  class="text-[#183828] md:w-[20.5208333333vw] flex flex-col gap-y-[6px] md:gap-y-[0.41666666666vw]">
-                    <h4 class="shortHeading">التمیز</h4>
-                    <p class="tagLine ">نـسعى الـى تـحقیق الـریـادة فـي الـقطاعـات الـتي نعمل بھا</p>
+                    <h4 class="shortHeading">ﺍﻟﺘﻤﻴﺰ</h4>
+                    <p class="tagLine ">ﻧﺴﻌﻰ ﺍﻟﻰ ﺗﺤﻘﻴﻖ ﺍﻟﺮﻳﺎﺩﺓ ﻓﻲ ﺍﻟﻘﻄﺎﻋﺎﺕ ﺍﻟﺘﻲ ﻧﻌﻤﻞ ﺑﻬﺎ.</p>
                 </div>
                 <div data-aos="fade" data-aos-delay="600" class="text-[#183828] md:w-[18.8541666667vw] flex flex-col gap-y-[6px] md:gap-y-[0.41666666666vw]">
-                    <h4 class="shortHeading">الابتكار</h4>
-                    <p class="tagLine ">نـدعـم الأفـكار الإبـداعـیة لـتكون حـقیقة عـلى أرض الواقع</p>
+                    <h4 class="shortHeading">ﺍﻻﺑﺘﻜﺎﺭ</h4>
+                    <p class="tagLine ">ﻧﺪﻋﻢ ﺍﻷﻓﻜﺎﺭ ﺍﻹﺑﺪﺍﻋﻴﺔ ﻟﺘﻜﻮﻥ ﺣﻘﻴﻘﺔ ﻋﻠﻰ ﺃﺭﺽ ﺍﻟﻮﺍﻗﻊ.</p>
                 </div>
                 <div data-aos="fade" data-aos-delay="800" class="text-[#183828] md:w-[13.2291666667vw] flex flex-col gap-y-[6px] md:gap-y-[0.41666666666vw]">
-                    <h4 class="shortHeading">الأمانة</h4>
-                    <p class="tagLine ">نـلتزم بـأعـلى مـعایـیر الـشفافـیة مـع عـملائـنا و فریق عملنا</p>
+                    <h4 class="shortHeading">ﺍﻷﻣﺎﻧﺔ</h4>
+                    <p class="tagLine ">ﻧﻠﺘﺰﻡ ﺑﺄﻋﻠﻰ ﻣﻌﺎﻳﻴﺮ ﺍﻟﺸﻔﺎﻓﻴﺔ ﻣﻊ ﻋﻤﻼﺋﻨﺎ ﻭ ﻓﺮﻳﻖ ﻋﻤﻠﻨﺎ.</p>
                 </div>
                
               </div>
@@ -267,291 +261,34 @@
 ">
     
 </span>
- <span class="overlay2 w-[65%] md:w-[26.5104166667vw] h-[31%] md:h-full bottom-0 adjustCeoOverlay  md:bottom-[unset] md:top-0  fliped z-[7]">
+ <span class="overlay2 w-[65%] md:w-[26.5104166667vw] h-[28%] md:h-full bottom-0 adjustCeoOverlay  md:bottom-[unset] md:top-0  fliped z-[7]">
 
 </span> 
 
-<div class=" top-0 left-0 absolute w-full h-[75.4310344828%]">
+<div class=" top-0 left-0 absolute w-full h-[75.4310344828%] fliped">
     <img src="../assets/images/about/image 1.png" alt="" class="w-full h-full object-cover ">
 </div>
     <div class="flex flex-col md:flex-row relative z-[6]   adjustCeoMargins  ">
         <div class="pt-[40px] px-[5%] md:px-0 pb-[24px] md:py-[5.20833333333vw] md:w-[44.84375vw] flex flex-col gap-y-[16px] md:gap-y-[1.66666666667vw]">
-            <h2 data-aos="fade-up" class="mainHeading text-[#BF713E] ">كلمة الرئیس التنفیذي</h2>
+            <h2 data-aos="fade-up" class="mainHeading text-[#BF713E] ">ﻛﻠﻤﺔ ﺍﻟﺮﺋﻴﺲ ﺍﻟﺘﻨﻔﻴﺬﻱ</h2>
           <div data-aos="fade-down"  class="flex flex-col gap-y-[2.91666666667vw]">
             <div class="text-[#FFFFFF] tagLine   gap-y-[12px] md:gap-y-0 md:h-[35.625vw] flex flex-col justify-between">
-                <p class="">شـركـة أومـاكـو ھـي إحـدى الشـركـات الـرائـدة فــي الــمملكة الــعربــیة الــسعودیــة والــتي تــم تـأسـیسھا مـنذ أكـثر مـن أربـعین عـامـاً عـلى یـد
-                    الـمغفور لـھ الشـیخ /عـمر قـاسـم الـعیسائـي،! حـــیث اســـتطاعـــت خـــلال الأربـــعة عـــقود الــماضــیة تــنویــع اســتثماراتــھا فــي مــجال
-                    الخدمات والصناعة والتجارة
-                    
-                    
-                    </p>
-                    <p class="">تــتبنى
-                        ن
-                        أ
-                        عــت
-                        ســتطا
-                        ا
-                        ت
-                        مــا
-                        لخــد
-                        ا
-                        ل
-                        مــجا
-                        فــفي
-                        فــي
-                        ت
-                        كــبا
-                        لــلمر
-                        ي
-                        ر
-                        و
-                        لــد
-                        ا
-                        لــفحص
-                        ا
-                        مــة
-                        مــنظو
-                        ت
-                        كــا
-                        لشــر
-                        ا
-                        كــبر
-                        أ
-                        مــع
-                        ت
-                        قــد
-                        تــعا
-                        كــما
-                        لــمملكة
-                        ا
-                        مـثل
-                        لـثقیلة
-                        ا
-                        ت
-                        ا
-                        لـمعد
-                        ا
-                        یـع
-                        ز
-                        تـو
-                        ل
-                        مـجا
-                        فـي
-                        نـیة
-                        بـا
-                        لـیا
-                        ا
-                        ،
-                        ا
-                        و
-                        كــا
-                        فــر
-                        و
-                        بیشــي
-                        مــیتسو
-                        و
-                        شــي
-                        ھــیتا
-                        كــة
-                        شــر
-                        عـد
-                        لـلمصا
-                        بیشـي
-                        مـیتسو
-                        كـة
-                        شـر
-                        سـیس
-                        بـتأ
-                        مـت
-                        قـا
-                        و
-                        نـیة
-                        بـا
-                        لـیا
-                        ا
-                        بیشـي
-                        مـیتسو
-                        كـة
-                        شـر
-                        مـع
-                        كـة
-                        ر
-                        لـمشا
-                        بـا
-                        ع
-                        قــطا
-                        فــي
-                        ر
-                        ســتثما
-                        لا
-                        ا
-                        مــة
-                        مــنظو
-                        ســتكملت
-                        ا
-                        و
-                        كـة
-                        شـر
-                        فـي
-                        ر
-                        سـتثما
-                        لا
-                        ا
-                        ل
-                        خـلا
-                        مـن
-                        ت
-                        مـا
-                        لخـد
-                        ا
-                        ت
-                        كـا
-                        لشـر
-                        ا
-                        حـد
-                        أ
-                        تـعد
-                        لـتي
-                        ا
-                        و
-                        ة
-                        لمتحـد
-                        ا
-                        ن
-                        ز
-                        لـمخا
-                        ا
-                        اللوجستیة الرائدة في السوق المحلي</p>
-                    <p class="">فـي
-                        ر
-                        سـتثما
-                        لا
-                        ا
-                        ھـمیة
-                        أ
-                        عـن
-                        كـة
-                        لشـر
-                        ا
-                        تـغفل
-                        لـم
-                        و
-                        فــي
-                        ر
-                        ســتثما
-                        لا
-                        بــا
-                        مــت
-                        فــقا
-                        عــي
-                        لــصنا
-                        ا
-                        ع
-                        لــقطا
-                        ا
-                        لـتغلیف
-                        ا
-                        و
-                        لـتعبئة
-                        ا
-                        و
-                        ئـیة
-                        ا
-                        لـغذ
-                        ا
-                        د
-                        ا
-                        لـمو
-                        ا
-                        عـة
-                        صـنا
-                        والأعلاف بكافة أنواعھا</p>
-                    <p class="">ة
-                        ا
-                        بـد
-                        مـع
-                        ة
-                        یـد
-                        جـد
-                        حـلة
-                        تـلبس
-                        كـة
-                        لشـر
-                        ا
-                        ھـي
-                        ھـا
-                        یـة
-                        ؤ
-                        بـر
-                        و
-                        ة
-                        یـد
-                        لجـد
-                        ا
-                        یـتھا
-                        ھـو
-                        لـتطلق
-                        2023م
-                        م
-                        عـا
-                        تـھا
-                        ا
-                        ر
-                        سـتثما
-                        ا
-                        یـع
-                        لـتنو
-                        حـة
-                        طـمو
-                        تـیجیة
-                        ا
-                        سـتر
-                        إ
-                        و
-                        یـق
-                        فـر
-                        ء
-                        بـنا
-                        و
-                        لـمختلفة
-                        ا
-                        تـھا
-                        عـا
-                        قـطا
-                        ھـیكلة
-                        ة
-                        د
-                        عـا
-                        إ
-                        و
-                        یـة
-                        ؤ
-                        ر
-                        ت
-                        فـا
-                        مسـتھد
-                        لـتحقیق
-                        لـیة
-                        عـا
-                        ة
-                        ء
-                        كـفا
-                        ا
-                        ذ
-                        عـمل
-                        المملكة 2030</p>
+                <p class="">ﺷﺮﻛﺔ ﺃﻭﻣﺎﻛﻮ ﻫﻲ ﺇﺣﺪﻯ ﺍﻟﺸﺮﻛﺎﺕ ﺍﻟﺮﺍﺋﺪﺓ ﻓﻲ ﺍﻟﻤﻤﻠﻜﺔ ﺍﻟﻌﺮﺑﻴﺔ ﺍﻟﺴﻌﻮﺩﻳﺔ ﻭﺍﻟﺘﻲ ﺗﻢ ﺗﺄﺳﻴﺴﻬﺎ ﻣﻨﺬ ﺃﻛﺜﺮ ﻣﻦ ﺃﺭﺑﻌﻴﻦ ﻋﺎﻣﺎً ﻋﻠﻰ ﻳﺪ ﺍﻟﻤﻐﻔﻮﺭ ﻟﻪ ﺍﻟﺸﻴﺦ / ﻋﻤﺮ ﻗﺎﺳﻢ ﺍﻟﻌﻴﺴﺎﺋﻲ، ﺣﻴﺚ ﺍﺳﺘﻄﺎﻋﺖ ﺧﻼﻝ ﺍﻷﺭﺑﻌﺔ ﻋﻘﻮﺩ ﺍﻟﻤﺎﺿﻴﺔ ﺗﻨﻮﻳﻊ ﺍﺳﺘﺜﻤﺎﺭﺍﺗﻬﺎ ﻓﻲ ﻣﺠﺎﻝ ﺍﻟﺨﺪﻣﺎﺕ ﻭﺍﻟﺼﻨﺎﻋﺔ ﻭﺍﻟﺘﺠﺎﺭﺓ.</p>
+                    <p class="">ﻓﻔﻲ ﻣﺠﺎﻝ ﺍﻟﺨﺪﻣﺎﺕ ﺍﺳﺘﻄﺎﻋﺖ ﺃﻥ ﺗﺘﺒﻨﻰ ﻣﻨﻈﻮﻣﺔ ﺍﻟﻔﺤﺺ ﺍﻟﺪﻭﺭﻱ ﻟﻠﻤﺮﻛﺒﺎﺕ ﻓﻲ ﺍﻟﻤﻤﻠﻜﺔ ﻛﻤﺎ ﺗﻌﺎﻗﺪﺕ ﻣﻊ ﺃﻛﺒﺮ ﺍﻟﺸﺮﻛﺎﺕ ﺍﻟﻴﺎﺑﺎﻧﻴﺔ ﻓﻲ ﻣﺠﺎﻝ ﺗﻮﺯﻳﻊ ﺍﻟﻤﻌﺪﺍﺕ ﺍﻟﺜﻘﻴﻠﺔ ﻣﺜﻞ ﺷﺮﻛﺔ ﻫﻴﺘﺎﺷﻲ ﻭﻣﻴﺘﺴﻮﺑﻴﺸﻲ ﻭﻓﺮﻛﺎﻭﺍ، ﻭﻗﺎﻣﺖ ﺑﺘﺄﺳﻴﺲ ﺷﺮﻛﺔ ﻣﻴﺘﺴﻮﺑﻴﺸﻲ ﻟﻠﻤﺼﺎﻋﺪ ﺑﺎﻟﻤﺸﺎﺭﻛﺔ ﻣﻊ ﺷﺮﻛﺔ ﻣﻴﺘﺴﻮﺑﻴﺸﻲ ﺍﻟﻴﺎﺑﺎﻧﻴﺔ ﻭﺍﺳﺘﻜﻤﻠﺖ ﻣﻨﻈﻮﻣﺔ ﺍﻻﺳﺘﺜﻤﺎﺭ ﻓﻲ ﻗﻄﺎﻉ ﺍﻟﺨﺪﻣﺎﺕ ﻣﻦ ﺧﻼﻝ ﺍﻻﺳﺘﺜﻤﺎﺭ ﻓﻲ ﺷﺮﻛﺔ ﺍﻟﻤﺨﺎﺯﻥ ﺍﻟﻤﺘﺤﺪﺓ ﻭﺍﻟﺘﻲ ﺗﻌﺪ ﺃﺣﺪ ﺍﻟﺸﺮﻛﺎﺕ ﺍﻟﻠﻮﺟﺴﺘﻴﺔ ﺍﻟﺮﺍﺋﺪﺓ ﻓﻲ ﺍﻟﺴﻮﻕ ﺍﻟﻤﺤﻠﻲ.</p>
+                    <p class="">ﻭﻟﻢ ﺗﻐﻔﻞ ﺍﻟﺸﺮﻛﺔ ﻋﻦ ﺃﻫﻤﻴﺔ ﺍﻻﺳﺘﺜﻤﺎﺭ ﻓﻲ ﺍﻟﻘﻄﺎﻉ ﺍﻟﺼﻨﺎﻋﻲ ﻓﻘﺎﻣﺖ ﺑﺎﻻﺳﺘﺜﻤﺎﺭ ﻓﻲ ﺻﻨﺎﻋﺔ ﺍﻟﻤﻮﺍﺩ ﺍﻟﻐﺬﺍﺋﻴﺔ ﻭﺍﻟﺘﻌﺒﺌﺔ ﻭﺍﻟﺘﻐﻠﻴﻒ ﻭﺍﻷﻋﻼﻑ ﺑﻜﺎﻓﺔ ﺃﻧﻮﺍﻋﻬﺎ. </p>
+                    <p class="">ﻫﺎ ﻫﻲ ﺍﻟﺸﺮﻛﺔ ﺗﻠﺒﺲ ﺣﻠﺔ ﺟﺪﻳﺪﺓ ﻣﻊ ﺑﺪﺍﻳﺔ ﻋﺎﻡ 2023ﻡ ﻟﺘﻄﻠﻖ ﻫﻮﻳﺘﻬﺎ ﺍﻟﺠﺪﻳﺪﺓ ﻭﺑﺮﺅﻳﺔ ﻭﺇﺳﺘﺮﺍﺗﻴﺠﻴﺔ ﻃﻤﻮﺣﺔ ﻟﺘﻨﻮﻳﻊ ﺍﺳﺘﺜﻤﺎﺭﺍﺗﻬﺎ ﻭﺇﻋﺎﺩﺓ ﻫﻴﻜﻠﺔ ﻗﻄﺎﻋﺎﺗﻬﺎ ﺍﻟﻤﺨﺘﻠﻔﺔ ﻭﺑﻨﺎﺀ ﻓﺮﻳﻖ ﻋﻤﻞ ﺫﺍ ﻛﻔﺎﺀﺓ ﻋﺎﻟﻴﺔ ﻟﺘﺤﻘﻴﻖ ﻣﺴﺘﻬﺪﻓﺎﺕ ﺭﺅﻳﺔ ﺍﻟﻤﻤﻠﻜﺔ 2030.</p>
                   
             </div>
             <span data-aos="fade"  class="md:text-[1.66666666667vw] md:leading-[2.5vw]
             text-[#BF713E] font-[600]
             ">
-            المھندس/صالح أحمد حفني  - الرئیس
+            ﺍﻟﻤﻬﻨﺪﺱ/ ﺻﺎﻟﺢ ﺃﺣﻤﺪ ﺣﻔﻨﻲ - ﺍﻟﺮﺋﻴﺲ
             <br>
-            التنفیذي للمجموعة
-            </span>
+            ﺍﻟﺘﻨﻔﻴﺬﻱ ﻟﻠﻤﺠﻤﻮﻋﺔ    
+        </span>
           </div>
         </div>
-        <div class="md:w-[48.3854166667vw] w-[90%] adjustCeoImage md:h-[60.625vw] md:absolute top-0 ">
+        <div class="md:w-[48.3854166667vw] w-[90%] adjustCeoImage md:h-[60.625vw] relative md:absolute top-[5vw] ">
             <img src="../assets/images/about/Sheikh Omar Alesayi 1.png" alt="" class="fliped w-full h-full object-contain">
         </div>
     </div>
@@ -562,7 +299,7 @@
         
     </div>
     <div class="Container" >
-        <h2 data-aos="fade-up" class="mainHeading text-[#BF713E] text-center mb-[24px] md:mb-0" >تاريخ ا لمجموعة</h2>
+        <h2 data-aos="fade-up" class="mainHeading text-[#BF713E] text-center mb-[24px] md:mb-0" >ﺗﺎﺭﻳﺦ ﺍﻟﻤﺠﻤﻮﻋﺔ</h2>
         <div class="centeredLineContainer ">
             <span class="centeredLine opacity-[0.2]"></span>
             <!-- <span class="centeredLine"></span> -->
@@ -575,10 +312,11 @@
                 <div class="md:max-w-[23.4375vw]">
                     <span class="mainHeading block text-[#183828] mb-[12px] md:mb-[1.66666666667vw]">1980</span>
                     <ul class="tagLine adjustTaglinePadding">
-                        <li>تأسست مجموعة أوماكو </li>
+                        <li>ﺗﺄﺳﺴﺖ ﻣﺠﻤﻮﻋﺔ ﺃﻭﻣﺎﻛﻮ </li>
 
-                        <li>  تأسست شركة میتسوبیشي الكھربائیة
-                            السعودیة المحدودة في المملكة العربیة  السعودیة</li>
+                        <li>
+                            ﺗﺄﺳﺴﺖ ﺷﺮﻛﺔ ﻣﻴﺘﺴﻮﺑﻴﺸﻲ ﺍﻟﻜﻬﺮﺑﺎﺋﻴﺔ ﺍﻟﺴﻌﻮﺩﻳﺔ ﺍﻟﻤﺤﺪﻭﺩﺓ ﻓﻲ ﺍﻟﻤﻤﻠﻜﺔ ﺍﻟﻌﺮﺑﻴﺔ ﺍﻟﺴﻌﻮﺩﻳﺔ
+                        </li>
                     </ul>
         
                 </div>
@@ -592,7 +330,8 @@
                  <div class="md:max-w-[29.6875vw] adjustHistoryDivPadding">
                     <span class="mainHeading block text-[#183828] mb-[12px] md:mb-[1.66666666667vw]"  id="historyAnchor">1985</span>
                     <ul class="tagLine adjustTaglinePadding">
-                        <li>تأسست شركة المتحدة للأعلاف </li> 
+                        <li>
+                            ﺗﺄﺳﺴﺖ ﺷﺮﻛﺔ ﺍﻟﻤﺘﺤﺪﺓ ﻟﻸﻋﻼﻑ</li> 
                     </ul>
         
                 </div>
@@ -606,12 +345,13 @@
                 <div class="md:max-w-[26.1vw]">
                     <span class="mainHeading block text-[#183828] mb-[12px] md:mb-[1.66666666667vw]">1986</span>
                     <ul class="tagLine adjustTaglinePadding">
-                        <li> تأسست شركة الفحص الدوري للسیارات
-                            والمركبات 
-                             </li>
+                        <li> 
+                            ﺗﺄﺳﺴﺖ ﺷﺮﻛﺔ ﺍﻟﻔﺤﺺ ﺍﻟﺪﻭﺭﻱ ﻟﻠﺴﻴﺎﺭﺍﺕ ﻭﺍﻟﻤﺮﻛﺒﺎﺕ
+                        </li>
 
-                        <li>  تم تأسیس فرع مجموعة أوماكو للمعدات
-                            الثقیلة </li>
+                        <li>
+                            ﺗﻢ ﺗﺄﺳﻴﺲ ﻓﺮﻉ ﻣﺠﻤﻮﻋﺔ ﺃﻭﻣﺎﻛﻮ ﻟﻠﻤﻌﺪﺍﺕ ﺍﻟﺜﻘﻴﻠﺔ
+                        </li>
                     </ul>
         
                 </div>
@@ -625,7 +365,9 @@
                  <div class="md:max-w-[29.1145833333vw] adjustHistoryDivPadding">
                     <span class="mainHeading block text-[#183828] mb-[12px] md:mb-[1.66666666667vw]">1988</span>
                     <ul class="tagLine adjustTaglinePadding">
-                        <li>تأسست الشركة الوطنیة لصناعة البسكویت والحلویات المحدودة </li> 
+                        <li>
+                            ﺗﺄﺳﺴﺖ ﺍﻟﺸﺮﻛﺔ ﺍﻟﻮﻃﻨﻴﺔ ﻟﺼﻨﺎﻋﺔ ﺍﻟﺒﺴﻜﻮﻳﺖ ﻭﺍﻟﺤﻠﻮﻳﺎﺕ ﺍﻟﻤﺤﺪﻭﺩﺓ    
+                        </li> 
                     </ul>
         
                 </div>
@@ -639,7 +381,9 @@
                 <div class="md:max-w-[23.4375vw]">
                     <span class="mainHeading block text-[#183828] mb-[12px] md:mb-[1.66666666667vw]">1990</span>
                     <ul class="tagLine adjustTaglinePadding">
-                        <li>تأسست الشركة المتحدة لصناعة الكرتون</li> 
+                        <li>
+                            ﺗﺄﺳﺴﺖ ﺍﻟﺸﺮﻛﺔ ﺍﻟﻤﺘﺤﺪﺓ ﻟﺼﻨﺎﻋﺔ ﺍﻟﻜﺮﺗﻮﻥ    
+                        </li> 
                     </ul>
         
                 </div>
@@ -653,7 +397,9 @@
                 <div class="md:max-w-[27.5vw] adjustHistoryDivPadding ">
                     <span class="mainHeading block text-[#183828] mb-[12px] md:mb-[1.66666666667vw]">1993</span>
                     <ul class="tagLine adjustTaglinePadding">
-                        <li>تأسست الشركة الوطنیة للصناعات الغذائیة المحدودة 'لونا&</li>
+                        <li>
+                            ﺗﺄﺳﺴﺖ ﺍﻟﺸﺮﻛﺔ ﺍﻟﻮﻃﻨﻴﺔ ﻟﻠﺼﻨﺎﻋﺎﺕ ﺍﻟﻐﺬﺍﺋﻴﺔ ﺍﻟﻤﺤﺪﻭﺩﺓ (ﻟﻮﻧﺎ)    
+                        </li>
                     </ul>
         
                 </div>
@@ -667,7 +413,9 @@
                 <div class="md:max-w-[23.4375vw]">
                     <span class="mainHeading block text-[#183828] mb-[12px] md:mb-[1.66666666667vw]">1994</span>
                     <ul class="tagLine adjustTaglinePadding">
-                        <li>تأسست شركة التوفیق للصناعات البلاستیكیة والأكیاس المنسوجة المحدودة</li>
+                        <li>
+                            
+                            ﺗﺄﺳﺴﺖ ﺷﺮﻛﺔ ﺍﻟﺘﻮﻓﻴﻖ ﻟﻠﺼﻨﺎﻋﺎﺕ ﺍﻟﺒﻼﺳﺘﻴﻜﻴﺔ ﻭﺍﻷﻛﻴﺎﺱ ﺍﻟﻤﻨﺴﻮﺟﺔ ﺍﻟﻤﺤﺪﻭﺩﺓ</li>
                     </ul>
         
                 </div>
@@ -681,7 +429,9 @@
                 <div class="md:max-w-[27.5vw] adjustHistoryDivPadding">
                     <span class="mainHeading block text-[#183828] mb-[12px] md:mb-[1.66666666667vw]">2007</span>
                     <ul class="tagLine adjustTaglinePadding">
-                        <li>تأسست شركة المخازن المتحدة المحدودة</li>
+                        <li>
+                            ﺗﺄﺳﺴﺖ ﺷﺮﻛﺔ ﺍﻟﻤﺨﺎﺯﻥ ﺍﻟﻤﺘﺤﺪﺓ ﺍﻟﻤﺤﺪﻭﺩﺓ    
+                        </li>
                     </ul>
         
                 </div>
@@ -695,7 +445,9 @@
                 <div class="md:max-w-[23.4375vw]">
                     <span class="mainHeading block text-[#183828] mb-[12px] md:mb-[1.66666666667vw]">2013</span>
                     <ul class="tagLine adjustTaglinePadding">
-                        <li>تأسست الشركة المتحدة لصناعة الأعلاف</li>
+                        <li>
+                            ﺗﺄﺳﺴﺖ ﺍﻟﺸﺮﻛﺔ ﺍﻟﻤﺘﺤﺪﺓ ﻟﺼﻨﺎﻋﺔ ﺍﻷﻋﻼﻑ    
+                        </li>
                     </ul>
         
                 </div>
@@ -709,7 +461,9 @@
                 <div class="md:max-w-[27.5vw] adjustHistoryDivPadding">
                     <span class="mainHeading block text-[#183828] mb-[12px] md:mb-[1.66666666667vw]">2020</span>
                     <ul class="tagLine adjustTaglinePadding">
-                        <li>تأسست شركة تكنوفال لتقنیة المعلومات</li>
+                        <li>
+                            ﺗﺄﺳﺴﺖ ﺷﺮﻛﺔ ﺗﻜﻨﻮﻓﺎﻝ ﻟﺘﻘﻨﻴﺔ ﺍﻟﻤﻌﻠﻮﻣﺎﺕ    
+                        </li>
                     </ul>
         
                 </div>
@@ -724,7 +478,7 @@
     gap-y-[24px] md:gap-y-[5.41666666667vw]
     pb-[11.5104166667vw]">
         <div class="md:w-[35.9895833333vw] mx-[auto] flex flex-col gap-y-[1.25vw] items-center">
-            <h2 data-aos="fade-up" class="mainHeading text-[#BF713E] ">الفریق الاداري </h2>
+            <h2 data-aos="fade-up" class="mainHeading text-[#BF713E] ">ﺍﻟﻔﺮﻳﻖ ﺍﻻﺩﺍﺭﻱ </h2>
             
             
         </div>
@@ -738,9 +492,12 @@
 <img src="../assets/images/about/our team/1.png" alt=""
 class=" w-full h-[90%] object-contain md:h-[27.7604166667vw] relative z-[4]" >
 <div class="team-member-content">
-    <span class="paragraph text-[#FFFFFF] font-[600]">الرئیس المالي التنفیذي￼
-        للمجموعة </span>
-    <h5 class="tagLine text-[#FFFFFF] font-[700] uppercase">فراس وائل العبوة</h5>
+    <span class="paragraph text-[#FFFFFF] font-[600]">
+        ﺍﻟﺮﺋﻴﺲ ﺍﻟﻤﺎﻟﻲ ﺍﻟﺘﻨﻔﻴﺬﻱ ﻟﻠﻤﺠﻤﻮﻋﺔ
+    </span>
+    <h5 class="tagLine text-[#FFFFFF] font-[700] uppercase">
+        ﻓﺮﺍﺱ ﻭﺍﺋﻞ ﺍﻟﻌﺒﻮﺓ
+    </h5>
 </div>
             </div>
             <div data-aos="fade" data-aos-delay="200" class="team-members">
@@ -751,10 +508,10 @@ class=" w-full h-[90%] object-contain md:h-[27.7604166667vw] relative z-[4]" >
                       "></span>
     <img src="../assets/images/about/our team/3.png" alt=""
     class=" w-full h-[90%] object-contain md:h-[24.4791666667vw] relative z-[4]" >
-    <div class="team-member-content bottom-[2.23958333333vw]">
-        <span class="paragraph text-[#FFFFFF] font-[600]">مدیر عام إدارة التطویر
-            العقاري </span>
-        <h5 class="tagLine text-[#FFFFFF] font-[700] uppercase">ثامر محمد آشي</h5>
+    <div class="team-member-content">
+        <span class="paragraph text-[#FFFFFF] font-[600]">
+            ﻣﺪﻳﺮ ﻋﺎﻡ ﺇﺩﺍﺭﺓ ﺍﻟﺘﻄﻮﻳﺮ ﺍﻟﻌﻘﺎﺭﻱ</span>
+        <h5 class="tagLine text-[#FFFFFF] font-[700] uppercase">ﺛﺎﻣﺮ ﻣﺤﻤﺪ ﺁﺷﻲ</h5>
     </div>
                 </div>
                 <div data-aos="fade" data-aos-delay="400" class="team-members">
@@ -765,10 +522,13 @@ class=" w-full h-[90%] object-contain md:h-[27.7604166667vw] relative z-[4]" >
                           "></span>
         <img src="../assets/images/about/our team/4.png" alt=""
         class=" w-full h-[90%] object-contain md:h-[24.5833333333vw] relative z-[4]" >
-        <div class="team-member-content bottom-[2.23958333333vw]">
-            <span class="paragraph text-[#FFFFFF] font-[600]">مدیر عام مكتب إدارة￼
-                المشاریع </span>
-            <h5 class="tagLine text-[#FFFFFF] font-[700] uppercase">ابراھیم محمد السید</h5>
+        <div class="team-member-content">
+            <span class="paragraph text-[#FFFFFF] font-[600]">
+                ﻣﺪﻳﺮ ﻋﺎﻡ ﻣﻜﺘﺐ ﺇﺩﺍﺭﺓ ﺍﻟﻤﺸﺎﺭﻳﻊﻣﺤﺘﻮﻯ
+            </span>
+            <h5 class="tagLine text-[#FFFFFF] font-[700] uppercase">
+                ﺍﺑﺮﺍﻫﻴﻢ ﻣﺤﻤﺪ ﺍﻟﺴﻴﺪ
+            </h5>
         </div>
                     </div>
             <div data-aos="fade" data-aos-delay="0" class="team-members">
@@ -780,9 +540,12 @@ class=" w-full h-[90%] object-contain md:h-[27.7604166667vw] relative z-[4]" >
 <img src="../assets/images/about/our team/2.png" alt=""
 class="w-full h-[90%] object-contain md:h-[27.7604166667vw] relative z-[4]" >
 <div class="team-member-content">
-    <span class="paragraph text-[#FFFFFF] font-[600]">المشرف العام على
-        الشؤون الإداریة </span>
-    <h5 class="tagLine text-[#FFFFFF] font-[700] uppercase">موفق محمد نور</h5>
+    <span class="paragraph text-[#FFFFFF] font-[600]">
+        ﺍﻟﻤﺸﺮﻑ ﺍﻟﻌﺎﻡ ﻋﻠﻰ ﺍﻟﺸﺆﻭﻥ ﺍﻹﺩﺍﺭﻳﺔ    
+    </span>
+    <h5 class="tagLine text-[#FFFFFF] font-[700] uppercase">
+        ﻣﻮﻓﻖ ﻣﺤﻤﺪ ﻧﻮﺭ
+    </h5>
 </div>
             </div>
            
@@ -795,10 +558,13 @@ class="w-full h-[90%] object-contain md:h-[27.7604166667vw] relative z-[4]" >
                   "></span>
 <img src="../assets/images/about/our team/5.png" alt=""
 class=" w-full h-[90%] object-contain md:h-[24.0104166667vw] relative z-[4]" >
-<div class="team-member-content bottom-[2.23958333333vw]">
-    <span class="paragraph text-[#FFFFFF] font-[600]">مدیر عام الإدارة￼
-        القانونیة للمجموعة </span>
-    <h5 class="tagLine text-[#FFFFFF] font-[700] uppercase">محمد فؤاد نایتھ</h5>
+<div class="team-member-content">
+    <span class="paragraph text-[#FFFFFF] font-[600]">
+        ﻣﺪﻳﺮ ﻋﺎﻡ ﺍﻹﺩﺍﺭﺓ ﺍﻟﻘﺎﻧﻮﻧﻴﺔ ﻟﻠﻤﺠﻤﻮﻋﺔ    
+    </span>
+    <h5 class="tagLine text-[#FFFFFF] font-[700] uppercase">
+        ﻣﺤﻤﺪ ﻓﺆﺍﺩ ﻧﺎﻳﺘﻪ
+    </h5>
 </div>
             </div>
             <div data-aos="fade" data-aos-delay="400" class="team-members">
@@ -809,10 +575,13 @@ class=" w-full h-[90%] object-contain md:h-[24.0104166667vw] relative z-[4]" >
                   "></span>
 <img src="../assets/images/about/our team/6.png" alt=""
 class=" w-full h-[90%] object-contain md:h-[24.0104166667vw] relative z-[4]" >
-<div class="team-member-content bottom-[2.23958333333vw]">
-    <span class="paragraph text-[#FFFFFF] font-[600]">مدیر إدارة تقنیة￼
-        ونظم المعلومات </span>
-    <h5 class="tagLine text-[#FFFFFF] font-[700] uppercase"> أیمن عبدالحكیم بخاري</h5>
+<div class="team-member-content">
+    <span class="paragraph text-[#FFFFFF] font-[600]">
+        ﻣﺪﻳﺮ ﺇﺩﺍﺭﺓ ﺗﻘﻨﻴﺔ ﻭﻧﻈﻢ ﺍﻟﻤﻌﻠﻮﻣﺎﺕ    
+    </span>
+    <h5 class="tagLine text-[#FFFFFF] font-[700] uppercase">
+        ﺃﻳﻤﻦ ﻋﺒﺪﺍﻟﺤﻜﻴﻢ ﺑﺨﺎﺭﻱ    
+    </h5>
 </div>
             </div>
              
