@@ -85,6 +85,12 @@ html{
 .Container{
     @apply w-[90vw] md:w-[87.5vw] mx-[auto]
 }
+.rtl .langFixer{
+   @apply border-l pl-[12px] mr-auto
+}
+.ltr .langFixer{
+   @apply border-r pr-[12px] ml-auto
+}
 .rtl .histroyCircle{
    @apply right-[-7.5vw]
 }
@@ -748,7 +754,7 @@ right: 11.9791666667vw;
    display: block;
    width: 25px;
    height: 3px;
-   background: #BF713E ;
+   background: #fff ;
    margin: auto;
    margin-bottom: 4px;
    transition: all 400ms linear;
