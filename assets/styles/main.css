@@ -2640,6 +2640,14 @@ html{
   scroll-behavior: smooth;
 }
 
+.rtl .langFixer{
+  font-family: "Montserrat";
+}
+
+.ltr .langFixer{
+  font-family: "GE SS";
+}
+
 #takeToTop.whiteIt{
   border: 1px solid #fff;
 }
@@ -2904,7 +2912,8 @@ ul.tagLine{
 }
 
 .team-member-overlay{
-  background: linear-gradient(180deg, rgba(24, 56, 41, 0) 13.02%, rgba(24, 56, 41, 0.41625) 50.52%, rgba(24, 56, 41, 0.72) 69.27%, rgba(24, 56, 41, 0.846806) 81.25%, #183829 100%);
+  /* background: linear-gradient(180deg, rgba(24, 56, 41, 0) 13.02%, rgba(24, 56, 41, 0.41625) 50.52%, rgba(24, 56, 41, 0.72) 69.27%, rgba(24, 56, 41, 0.846806) 81.25%, #183829 100%); */
+  background: linear-gradient(180deg, rgba(24,56,40,0) 5%, rgb(24, 56, 40,1) 100%);
   left: 0;
   bottom: 0;
   width: 100%;
@@ -3116,14 +3125,14 @@ body.active{
 }
 
 #googleMap .gm-style::after{
-  content: '';
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  pointer-events: none;
+  /* content: '';
+   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   pointer-events: none; */
 }
 
 #googleMap button{
