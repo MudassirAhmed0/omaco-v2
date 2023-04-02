@@ -1399,6 +1399,14 @@ video {
   z-index: 9;
 }
 
+.order-\[2\] {
+  order: 2;
+}
+
+.order-\[3\] {
+  order: 3;
+}
+
 .mx-0 {
   margin-left: 0px;
   margin-right: 0px;
@@ -2681,9 +2689,14 @@ html{
   transform: scaleX(1);
 }
 
-.langSwitcher{
+.rtl .langSwitcher{
   border: none;
   font-family: "Montserrat";
+}
+
+.ltr .langSwitcher{
+  border: none;
+  font-family: "GE SS";
 }
 
 .centeredLineContainer .tagLine{
@@ -3209,6 +3222,10 @@ body.active{
 
   .md\:top-0 {
     top: 0px;
+  }
+
+  .md\:order-\[unset\] {
+    order: unset;
   }
 
   .md\:mx-0 {
