@@ -2107,6 +2107,10 @@ video {
   overflow: hidden;
 }
 
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
 .whitespace-nowrap {
   white-space: nowrap;
 }
@@ -3740,6 +3744,10 @@ body.active{
 
   .md\:w-\[1\.568958333333vw\] {
     width: 1.568958333333vw;
+  }
+
+  .md\:w-\[1\.2vw\] {
+    width: 1.2vw;
   }
 
   .md\:max-w-\[80\%\] {
