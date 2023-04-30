@@ -3048,7 +3048,7 @@ transform: rotate(180deg);
 
 @media(min-width:768px){
   .rtl .bannerPara{
-    max-width: 55%;
+    max-width: 100%;
   }
 
   .ltr .bannerPara{
@@ -3600,6 +3600,10 @@ body.active{
     width: 18.8541666667vw;
   }
 
+  .md\:w-\[19\.0416666667vw\] {
+    width: 19.0416666667vw;
+  }
+
   .md\:w-\[2\.55208333333vw\] {
     width: 2.55208333333vw;
   }
@@ -3782,14 +3786,6 @@ body.active{
 
   .md\:w-full {
     width: 100%;
-  }
-
-  .md\:w-\[18\.0416666667vw\] {
-    width: 18.0416666667vw;
-  }
-
-  .md\:w-\[19\.0416666667vw\] {
-    width: 19.0416666667vw;
   }
 
   .md\:max-w-\[80\%\] {
