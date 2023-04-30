@@ -684,6 +684,12 @@ transform: rotate(180deg);
    .ltr .bannerPara{
       max-width: 57%;
    }
+   .rtl .merWidth{
+      width: 19.5vw;
+   }
+   .ltr .meriWidth{
+      width: 23.5vw;
+   }
    .testiomonialSwiper.swiper-css-mode>.swiper-wrapper>.swiper-slide{
       width:11.1979166667vw !important;
       height: 6.5625vw !important;
