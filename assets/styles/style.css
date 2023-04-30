@@ -77,6 +77,13 @@ body{
    word-spacing: 2px;
 
 }
+.montserrat{
+   font-family: "Montserrat"!important;
+
+}
+.ltr{
+   direction: ltr;
+}
 html{
     scroll-behavior: smooth;
 
@@ -666,6 +673,10 @@ transform: rotate(180deg);
    justify-content: center !important;
    align-items: center !important;
 }
+.sectorssSwiper .swiper-wrapper{
+   align-items: flex-end;
+   
+}
  @media(min-width:768px){
    .rtl .bannerPara{
       max-width: 55%;
@@ -699,11 +710,7 @@ transform: rotate(180deg);
       width: 3.69791666667vw!important;
    }
 
-.sectorsSwiper .swiper-wrapper{
-   align-items: flex-end;
-   
 
-}
  .sectorsSwiper .swiper-slide{
    transition: all .8s;
  }
