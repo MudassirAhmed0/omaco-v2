@@ -34,10 +34,10 @@ const testiomonialSwiper = new Swiper(".testiomonialSwiper", {
     prevEl: ".swiper-button-prev",
   },
 
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
+  // pagination: {
+  //   el: ".swiper-pagination",
+  //   clickable: true,
+  // },
   mousewheel: true,
   keyboard: true,
 });
