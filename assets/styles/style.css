@@ -394,6 +394,12 @@ html{
    transition-delay: .4s;
 
 }
+.sectorSlide img{
+   transition:  all .5s;
+ }
+ .sectorSlide:hover img{
+   transform: scale(1.1);
+ }
 .active .historyBorder{
    transform: scaleX(1);
 

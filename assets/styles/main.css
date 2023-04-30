@@ -2012,6 +2012,11 @@ video {
        column-gap: 0.52083333333vw;
 }
 
+.gap-x-\[0\.5vw\] {
+  -moz-column-gap: 0.5vw;
+       column-gap: 0.5vw;
+}
+
 .gap-x-\[10px\] {
   -moz-column-gap: 10px;
        column-gap: 10px;
@@ -2103,9 +2108,9 @@ video {
   row-gap: 6px;
 }
 
-.gap-x-\[0\.5vw\] {
-  -moz-column-gap: 0.5vw;
-       column-gap: 0.5vw;
+.gap-x-\[1vw\] {
+  -moz-column-gap: 1vw;
+       column-gap: 1vw;
 }
 
 .overflow-hidden {
@@ -2396,6 +2401,18 @@ video {
 
 .text-\[20px\] {
   font-size: 20px;
+}
+
+.text-\[3\.33333333333vw\] {
+  font-size: 3.33333333333vw;
+}
+
+.text-\[3vw\] {
+  font-size: 3vw;
+}
+
+.text-\[2\.8vw\] {
+  font-size: 2.8vw;
 }
 
 .font-\[300\] {
@@ -2712,6 +2729,14 @@ html{
   transition: all .8s;
   transform-origin: left;
   transition-delay: .4s;
+}
+
+.sectorSlide img{
+  transition:  all .5s;
+}
+
+.sectorSlide:hover img{
+  transform: scale(1.1);
 }
 
 .active .historyBorder{
@@ -3559,6 +3584,10 @@ body.active{
     width: 16.0416666667vw;
   }
 
+  .md\:w-\[17\.3854166667vw\] {
+    width: 17.3854166667vw;
+  }
+
   .md\:w-\[18\.3333333333vw\] {
     width: 18.3333333333vw;
   }
@@ -3751,8 +3780,8 @@ body.active{
     width: 100%;
   }
 
-  .md\:w-\[17\.3854166667vw\] {
-    width: 17.3854166667vw;
+  .md\:w-\[36\.1666666667vw\] {
+    width: 36.1666666667vw;
   }
 
   .md\:max-w-\[80\%\] {
