@@ -3078,7 +3078,7 @@ transform: rotate(180deg);
   align-items: flex-end;
 }
 
-.sectorsSwiper .swiper-slide{
+.sectorssSwiper .swiper-slide{
   transition: all .8s;
 }
 
@@ -3219,7 +3219,7 @@ body.active{
 }
 
 @media(max-width:768px){
-  .sectorsSwiper .swiper-slide-active{
+  .sectorssSwiper .swiper-slide-active{
     height: 340px;
   }
 
