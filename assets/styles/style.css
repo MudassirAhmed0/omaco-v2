@@ -82,7 +82,7 @@ body{
 
 }
 .ltr{
-   direction: ltr;
+   direction: ltr!important;
 }
 html{
     scroll-behavior: smooth;
